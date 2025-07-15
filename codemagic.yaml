@@ -4,7 +4,6 @@ workflows:
     max_build_duration: 120
     environment:
       node: 18
-      npm: latest
     scripts:
       - name: Install dependencies
         script: |

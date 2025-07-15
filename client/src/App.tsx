@@ -9,6 +9,7 @@ import Reflect from "@/pages/reflect";
 import Habits from "@/pages/habits";
 import Progress from "@/pages/progress";
 import Profile from "@/pages/profile";
+import Support from "@/pages/support";
 import BottomNav from "@/components/navigation/bottom-nav";
 
 function Router() {
@@ -20,6 +21,7 @@ function Router() {
         <Route path="/habits" component={Habits} />
         <Route path="/progress" component={Progress} />
         <Route path="/profile" component={Profile} />
+        <Route path="/support" component={Support} />
         <Route component={NotFound} />
       </Switch>
       <BottomNav />

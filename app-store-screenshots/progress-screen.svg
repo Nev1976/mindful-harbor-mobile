@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1290" height="2796" viewBox="0 0 1290 2796" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPhone Frame -->
+  <rect width="1290" height="2796" rx="60" fill="#000000"/>
+  <rect x="30" y="30" width="1230" height="2736" rx="40" fill="#FFFFFF"/>
+  
+  <!-- Status Bar -->
+  <rect x="60" y="80" width="1170" height="60" fill="#F8FAFC"/>
+  <text x="90" y="120" font-family="system-ui" font-size="40" font-weight="600" fill="#1F2937">9:41</text>
+  <rect x="1050" y="95" width="60" height="30" rx="15" fill="#10B981"/>
+  <rect x="1130" y="95" width="80" height="30" rx="8" fill="#374151"/>
+  
+  <!-- Header -->
+  <rect x="60" y="140" width="1170" height="120" fill="rgba(255,255,255,0.9)"/>
+  <circle cx="150" cy="200" r="25" fill="url(#gradient1)"/>
+  <path d="M140 190 L150 200 L160 190 M140 210 L150 200 L160 210" stroke="white" stroke-width="3" fill="none"/>
+  <text x="190" y="215" font-family="system-ui" font-size="48" font-weight="500" fill="#374151">Mindful Harbor</text>
+  <circle cx="1150" cy="200" r="30" fill="#F3F4F6"/>
+  <circle cx="1150" cy="195" r="20" fill="none" stroke="#10B981" stroke-width="3"/>
+  
+  <!-- Page Title -->
+  <text x="90" y="340" font-family="system-ui" font-size="64" font-weight="700" fill="#1F2937">Progress</text>
+  <text x="90" y="390" font-family="system-ui" font-size="40" fill="#6B7280">Your mindfulness journey</text>
+  
+  <!-- Today's Summary -->
+  <rect x="90" y="430" width="1110" height="200" rx="20" fill="url(#gradient2)"/>
+  <text x="130" y="480" font-family="system-ui" font-size="36" font-weight="600" fill="white">Today's Achievement</text>
+  <text x="130" y="530" font-family="system-ui" font-size="56" font-weight="700" fill="white">2 of 3 habits</text>
+  <text x="130" y="580" font-family="system-ui" font-size="32" fill="rgba(255,255,255,0.9)">Reflection completed • 5 micro moments</text>
+  
+  <circle cx="1000" cy="530" r="80" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="1000" cy="530" r="60" fill="none" stroke="white" stroke-width="8" stroke-dasharray="283 377"/>
+  <text x="1000" y="540" font-family="system-ui" font-size="32" font-weight="700" fill="white" text-anchor="middle">75%</text>
+  
+  <!-- Weekly Progress Chart -->
+  <rect x="90" y="660" width="1110" height="350" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="130" y="710" font-family="system-ui" font-size="42" font-weight="600" fill="#374151">This Week's Progress</text>
+  
+  <!-- Chart Bars -->
+  <text x="130" y="760" font-family="system-ui" font-size="28" fill="#6B7280">Mon</text>
+  <rect x="130" y="780" width="40" height="140" rx="20" fill="#10B981"/>
+  <text x="150" y="940" font-family="system-ui" font-size="24" fill="#6B7280" text-anchor="middle">100%</text>
+  
+  <text x="230" y="760" font-family="system-ui" font-size="28" fill="#6B7280">Tue</text>
+  <rect x="230" y="780" width="40" height="140" rx="20" fill="#10B981"/>
+  <text x="250" y="940" font-family="system-ui" font-size="24" fill="#6B7280" text-anchor="middle">100%</text>
+  
+  <text x="330" y="760" font-family="system-ui" font-size="28" fill="#6B7280">Wed</text>
+  <rect x="330" y="800" width="40" height="120" rx="20" fill="#10B981"/>
+  <text x="350" y="940" font-family="system-ui" font-size="24" fill="#6B7280" text-anchor="middle">85%</text>
+  
+  <text x="430" y="760" font-family="system-ui" font-size="28" fill="#6B7280">Thu</text>
+  <rect x="430" y="780" width="40" height="140" rx="20" fill="#10B981"/>
+  <text x="450" y="940" font-family="system-ui" font-size="24" fill="#6B7280" text-anchor="middle">100%</text>
+  
+  <text x="530" y="760" font-family="system-ui" font-size="28" fill="#6B7280">Fri</text>
+  <rect x="530" y="780" width="40" height="140" rx="20" fill="#10B981"/>
+  <text x="550" y="940" font-family="system-ui" font-size="24" fill="#6B7280" text-anchor="middle">100%</text>
+  
+  <text x="630" y="760" font-family="system-ui" font-size="28" fill="#6B7280">Sat</text>
+  <rect x="630" y="780" width="40" height="140" rx="20" fill="#10B981"/>
+  <text x="650" y="940" font-family="system-ui" font-size="24" fill="#6B7280" text-anchor="middle">100%</text>
+  
+  <text x="730" y="760" font-family="system-ui" font-size="28" fill="#10B981">Sun</text>
+  <rect x="730" y="810" width="40" height="110" rx="20" fill="#10B981"/>
+  <text x="750" y="940" font-family="system-ui" font-size="24" fill="#10B981" text-anchor="middle">75%</text>
+  
+  <!-- Stats Cards -->
+  <text x="90" y="1080" font-family="system-ui" font-size="42" font-weight="600" fill="#374151">Your Statistics</text>
+  
+  <!-- Streak Card -->
+  <rect x="90" y="1120" width="350" height="200" rx="20" fill="#FEF7ED"/>
+  <text x="120" y="1160" font-family="system-ui" font-size="32" font-weight="600" fill="#9A3412">Current Streak</text>
+  <text x="120" y="1220" font-family="system-ui" font-size="72" font-weight="800" fill="#C2410C">7</text>
+  <text x="120" y="1260" font-family="system-ui" font-size="32" fill="#9A3412">days</text>
+  <text x="350" y="1190" font-family="system-ui" font-size="48" fill="#FB923C">🔥</text>
+  
+  <!-- Total Reflections -->
+  <rect x="470" y="1120" width="350" height="200" rx="20" fill="#EFF6FF"/>
+  <text x="500" y="1160" font-family="system-ui" font-size="32" font-weight="600" fill="#1E40AF">Reflections</text>
+  <text x="500" y="1220" font-family="system-ui" font-size="72" font-weight="800" fill="#2563EB">42</text>
+  <text x="500" y="1260" font-family="system-ui" font-size="32" fill="#1E40AF">completed</text>
+  <text x="730" y="1190" font-family="system-ui" font-size="48" fill="#3B82F6">💭</text>
+  
+  <!-- Mindful Minutes -->
+  <rect x="850" y="1120" width="350" height="200" rx="20" fill="#F0FDF4"/>
+  <text x="880" y="1160" font-family="system-ui" font-size="32" font-weight="600" fill="#065F46">Mindful Minutes</text>
+  <text x="880" y="1220" font-family="system-ui" font-size="72" font-weight="800" fill="#10B981">124</text>
+  <text x="880" y="1260" font-family="system-ui" font-size="32" fill="#065F46">this week</text>
+  <text x="1110" y="1190" font-family="system-ui" font-size="48" fill="#10B981">⏱️</text>
+  
+  <!-- Achievements Section -->
+  <text x="90" y="1400" font-family="system-ui" font-size="42" font-weight="600" fill="#374151">Recent Achievements</text>
+  
+  <!-- Achievement 1 -->
+  <rect x="90" y="1440" width="1110" height="120" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <circle cx="150" cy="1500" r="30" fill="#F59E0B"/>
+  <text x="140" y="1510" font-family="system-ui" font-size="28" fill="white">🏆</text>
+  <text x="200" y="1485" font-family="system-ui" font-size="36" font-weight="600" fill="#1F2937">Week Warrior</text>
+  <text x="200" y="1520" font-family="system-ui" font-size="28" fill="#6B7280">Completed all habits for 7 consecutive days</text>
+  <text x="1050" y="1505" font-family="system-ui" font-size="28" fill="#6B7280">2 days ago</text>
+  
+  <!-- Achievement 2 -->
+  <rect x="90" y="1580" width="1110" height="120" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <circle cx="150" cy="1640" r="30" fill="#8B5CF6"/>
+  <text x="140" y="1650" font-family="system-ui" font-size="28" fill="white">⭐</text>
+  <text x="200" y="1625" font-family="system-ui" font-size="36" font-weight="600" fill="#1F2937">Reflection Master</text>
+  <text x="200" y="1660" font-family="system-ui" font-size="28" fill="#6B7280">Completed 30 daily reflections</text>
+  <text x="1050" y="1645" font-family="system-ui" font-size="28" fill="#6B7280">1 week ago</text>
+  
+  <!-- Mood Tracker -->
+  <text x="90" y="1780" font-family="system-ui" font-size="42" font-weight="600" fill="#374151">Weekly Mood</text>
+  
+  <rect x="90" y="1820" width="1110" height="180" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Mood indicators -->
+  <text x="130" y="1870" font-family="system-ui" font-size="28" fill="#6B7280">Mon</text>
+  <text x="130" y="1910" font-family="system-ui" font-size="48" fill="#10B981">😊</text>
+  
+  <text x="230" y="1870" font-family="system-ui" font-size="28" fill="#6B7280">Tue</text>
+  <text x="230" y="1910" font-family="system-ui" font-size="48" fill="#10B981">😊</text>
+  
+  <text x="330" y="1870" font-family="system-ui" font-size="28" fill="#6B7280">Wed</text>
+  <text x="330" y="1910" font-family="system-ui" font-size="48" fill="#F59E0B">😐</text>
+  
+  <text x="430" y="1870" font-family="system-ui" font-size="28" fill="#6B7280">Thu</text>
+  <text x="430" y="1910" font-family="system-ui" font-size="48" fill="#10B981">😊</text>
+  
+  <text x="530" y="1870" font-family="system-ui" font-size="28" fill="#6B7280">Fri</text>
+  <text x="530" y="1910" font-family="system-ui" font-size="48" fill="#10B981">😊</text>
+  
+  <text x="630" y="1870" font-family="system-ui" font-size="28" fill="#6B7280">Sat</text>
+  <text x="630" y="1910" font-family="system-ui" font-size="48" fill="#10B981">😊</text>
+  
+  <text x="730" y="1870" font-family="system-ui" font-size="28" fill="#10B981">Sun</text>
+  <text x="730" y="1910" font-family="system-ui" font-size="48" fill="#10B981">😊</text>
+  
+  <text x="900" y="1890" font-family="system-ui" font-size="32" fill="#10B981">Average: Very Happy 😊</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="60" y="2580" width="1170" height="150" fill="#FFFFFF"/>
+  <line x1="60" y1="2580" x2="1230" y2="2580" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Nav Items -->
+  <g>
+    <circle cx="225" cy="2630" r="30" fill="#F3F4F6"/>
+    <text x="215" y="2640" font-family="system-ui" font-size="24" fill="#6B7280">🏠</text>
+    <text x="225" y="2680" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">Home</text>
+  </g>
+  
+  <g>
+    <circle cx="450" cy="2630" r="30" fill="#F3F4F6"/>
+    <text x="440" y="2640" font-family="system-ui" font-size="24" fill="#6B7280">💭</text>
+    <text x="450" y="2680" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">Reflect</text>
+  </g>
+  
+  <g>
+    <circle cx="675" cy="2630" r="30" fill="#F3F4F6"/>
+    <text x="665" y="2640" font-family="system-ui" font-size="24" fill="#6B7280">✓</text>
+    <text x="675" y="2680" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">Habits</text>
+  </g>
+  
+  <g>
+    <circle cx="900" cy="2630" r="30" fill="#10B981"/>
+    <text x="890" y="2640" font-family="system-ui" font-size="24" fill="white">📊</text>
+    <text x="900" y="2680" font-family="system-ui" font-size="28" font-weight="500" fill="#10B981" text-anchor="middle">Progress</text>
+  </g>
+  
+  <g>
+    <circle cx="1125" cy="2630" r="30" fill="#F3F4F6"/>
+    <text x="1115" y="2640" font-family="system-ui" font-size="24" fill="#6B7280">👤</text>
+    <text x="1125" y="2680" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">Profile</text>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

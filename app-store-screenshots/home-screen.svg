@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1290" height="2796" viewBox="0 0 1290 2796" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPhone Frame -->
+  <rect width="1290" height="2796" rx="60" fill="#000000"/>
+  <rect x="30" y="30" width="1230" height="2736" rx="40" fill="#FFFFFF"/>
+  
+  <!-- Status Bar -->
+  <rect x="60" y="80" width="1170" height="60" fill="#F8FAFC"/>
+  <text x="90" y="120" font-family="system-ui" font-size="40" font-weight="600" fill="#1F2937">9:41</text>
+  <rect x="1050" y="95" width="60" height="30" rx="15" fill="#10B981"/>
+  <rect x="1130" y="95" width="80" height="30" rx="8" fill="#374151"/>
+  
+  <!-- Header -->
+  <rect x="60" y="140" width="1170" height="120" fill="rgba(255,255,255,0.9)"/>
+  <circle cx="150" cy="200" r="25" fill="url(#gradient1)"/>
+  <path d="M140 190 L150 200 L160 190 M140 210 L150 200 L160 210" stroke="white" stroke-width="3" fill="none"/>
+  <text x="190" y="215" font-family="system-ui" font-size="48" font-weight="500" fill="#374151">Mindful Harbor</text>
+  <circle cx="1150" cy="200" r="30" fill="#F3F4F6"/>
+  <circle cx="1150" cy="195" r="20" fill="none" stroke="#10B981" stroke-width="3"/>
+  
+  <!-- Main Content -->
+  <rect x="90" y="300" width="1110" height="400" rx="20" fill="url(#gradient2)"/>
+  <text x="130" y="360" font-family="system-ui" font-size="48" font-weight="600" fill="white">Good morning, Sarah</text>
+  <text x="130" y="420" font-family="system-ui" font-size="36" fill="rgba(255,255,255,0.9)">Today is a new opportunity to find joy in the</text>
+  <text x="130" y="470" font-family="system-ui" font-size="36" fill="rgba(255,255,255,0.9)">present moment. Let's cultivate happiness</text>
+  <text x="130" y="520" font-family="system-ui" font-size="36" fill="rgba(255,255,255,0.9)">together.</text>
+  <text x="130" y="620" font-family="system-ui" font-size="32" fill="rgba(255,255,255,0.8)">✨ Day 7 of your mindfulness journey</text>
+  
+  <!-- Today's Reflection Card -->
+  <rect x="90" y="740" width="1110" height="300" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="130" y="800" font-family="system-ui" font-size="42" font-weight="600" fill="#374151">Today's Reflection</text>
+  <circle cx="1050" cy="780" r="35" fill="#FEF3C7"/>
+  <text x="1040" y="795" font-family="system-ui" font-size="28">💭</text>
+  
+  <rect x="130" y="840" width="1030" height="150" rx="15" fill="#F9FAFB"/>
+  <text x="160" y="890" font-family="system-ui" font-size="36" fill="#6B7280">Think of someone who made you smile</text>
+  <text x="160" y="930" font-family="system-ui" font-size="36" fill="#6B7280">recently. What small gesture can you make to</text>
+  <text x="160" y="970" font-family="system-ui" font-size="36" fill="#6B7280">brighten someone else's day?</text>
+  
+  <rect x="900" y="1080" width="200" height="60" rx="30" fill="#10B981"/>
+  <text x="970" y="1120" font-family="system-ui" font-size="32" font-weight="500" fill="white" text-anchor="middle">Begin Reflection</text>
+  
+  <!-- Micro Moments Section -->
+  <text x="130" y="1220" font-family="system-ui" font-size="42" font-weight="600" fill="#374151">Micro Moments</text>
+  
+  <!-- Micro Moment Cards -->
+  <rect x="90" y="1260" width="360" height="200" rx="15" fill="#FEF7ED"/>
+  <circle cx="150" cy="1310" r="25" fill="#FB923C"/>
+  <text x="140" y="1320" font-family="system-ui" font-size="24" fill="white">🙏</text>
+  <text x="190" y="1320" font-family="system-ui" font-size="32" font-weight="500" fill="#9A3412">Gratitude Pause</text>
+  <text x="110" y="1360" font-family="system-ui" font-size="28" fill="#9A3412">Take a moment to</text>
+  <text x="110" y="1390" font-family="system-ui" font-size="28" fill="#9A3412">appreciate something</text>
+  <text x="110" y="1420" font-family="system-ui" font-size="28" fill="#9A3412">in your surroundings</text>
+  
+  <rect x="470" y="1260" width="360" height="200" rx="15" fill="#EFF6FF"/>
+  <circle cx="530" cy="1310" r="25" fill="#3B82F6"/>
+  <text x="520" y="1320" font-family="system-ui" font-size="24" fill="white">🌬️</text>
+  <text x="570" y="1320" font-family="system-ui" font-size="32" font-weight="500" fill="#1E40AF">Mindful Breath</text>
+  <text x="490" y="1360" font-family="system-ui" font-size="28" fill="#1E40AF">Three deep breaths</text>
+  <text x="490" y="1390" font-family="system-ui" font-size="28" fill="#1E40AF">to center yourself</text>
+  
+  <rect x="850" y="1260" width="360" height="200" rx="15" fill="#F0FDF4"/>
+  <circle cx="910" cy="1310" r="25" fill="#10B981"/>
+  <text x="900" y="1320" font-family="system-ui" font-size="24" fill="white">👀</text>
+  <text x="950" y="1320" font-family="system-ui" font-size="32" font-weight="500" fill="#065F46">Mindful Seeing</text>
+  <text x="870" y="1360" font-family="system-ui" font-size="28" fill="#065F46">Notice five things</text>
+  <text x="870" y="1390" font-family="system-ui" font-size="28" fill="#065F46">you can see right now</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="60" y="2580" width="1170" height="150" fill="#FFFFFF"/>
+  <line x1="60" y1="2580" x2="1230" y2="2580" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Nav Items -->
+  <g>
+    <circle cx="225" cy="2630" r="30" fill="#10B981"/>
+    <text x="215" y="2640" font-family="system-ui" font-size="24" fill="white">🏠</text>
+    <text x="225" y="2680" font-family="system-ui" font-size="28" font-weight="500" fill="#10B981" text-anchor="middle">Home</text>
+  </g>
+  
+  <g>
+    <circle cx="450" cy="2630" r="30" fill="#F3F4F6"/>
+    <text x="440" y="2640" font-family="system-ui" font-size="24" fill="#6B7280">💭</text>
+    <text x="450" y="2680" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">Reflect</text>
+  </g>
+  
+  <g>
+    <circle cx="675" cy="2630" r="30" fill="#F3F4F6"/>
+    <text x="665" y="2640" font-family="system-ui" font-size="24" fill="#6B7280">✓</text>
+    <text x="675" y="2680" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">Habits</text>
+  </g>
+  
+  <g>
+    <circle cx="900" cy="2630" r="30" fill="#F3F4F6"/>
+    <text x="890" y="2640" font-family="system-ui" font-size="24" fill="#6B7280">📊</text>
+    <text x="900" y="2680" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">Progress</text>
+  </g>
+  
+  <g>
+    <circle cx="1125" cy="2630" r="30" fill="#F3F4F6"/>
+    <text x="1115" y="2640" font-family="system-ui" font-size="24" fill="#6B7280">👤</text>
+    <text x="1125" y="2680" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">Profile</text>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

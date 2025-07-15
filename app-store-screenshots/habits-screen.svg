@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1290" height="2796" viewBox="0 0 1290 2796" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPhone Frame -->
+  <rect width="1290" height="2796" rx="60" fill="#000000"/>
+  <rect x="30" y="30" width="1230" height="2736" rx="40" fill="#FFFFFF"/>
+  
+  <!-- Status Bar -->
+  <rect x="60" y="80" width="1170" height="60" fill="#F8FAFC"/>
+  <text x="90" y="120" font-family="system-ui" font-size="40" font-weight="600" fill="#1F2937">9:41</text>
+  <rect x="1050" y="95" width="60" height="30" rx="15" fill="#10B981"/>
+  <rect x="1130" y="95" width="80" height="30" rx="8" fill="#374151"/>
+  
+  <!-- Header -->
+  <rect x="60" y="140" width="1170" height="120" fill="rgba(255,255,255,0.9)"/>
+  <circle cx="150" cy="200" r="25" fill="url(#gradient1)"/>
+  <path d="M140 190 L150 200 L160 190 M140 210 L150 200 L160 210" stroke="white" stroke-width="3" fill="none"/>
+  <text x="190" y="215" font-family="system-ui" font-size="48" font-weight="500" fill="#374151">Mindful Harbor</text>
+  <circle cx="1150" cy="200" r="30" fill="#F3F4F6"/>
+  <circle cx="1150" cy="195" r="20" fill="none" stroke="#10B981" stroke-width="3"/>
+  
+  <!-- Page Title -->
+  <text x="90" y="340" font-family="system-ui" font-size="64" font-weight="700" fill="#1F2937">Habits</text>
+  <text x="90" y="390" font-family="system-ui" font-size="40" fill="#6B7280">Build your mindfulness practice</text>
+  
+  <!-- Progress Summary -->
+  <rect x="90" y="430" width="1110" height="180" rx="20" fill="url(#gradient2)"/>
+  <text x="130" y="480" font-family="system-ui" font-size="36" font-weight="600" fill="white">Today's Progress</text>
+  <text x="130" y="530" font-family="system-ui" font-size="48" font-weight="700" fill="white">2 of 3 habits completed</text>
+  <text x="130" y="580" font-family="system-ui" font-size="32" fill="rgba(255,255,255,0.9)">You're on a 7-day streak! 🔥</text>
+  
+  <!-- Habit List -->
+  <text x="90" y="690" font-family="system-ui" font-size="42" font-weight="600" fill="#374151">Your Habits</text>
+  
+  <!-- Habit 1 - Completed -->
+  <rect x="90" y="730" width="1110" height="200" rx="20" fill="#FFFFFF" stroke="#10B981" stroke-width="3"/>
+  <circle cx="150" cy="800" r="25" fill="#10B981"/>
+  <path d="M140 800 L147 807 L160 790" stroke="white" stroke-width="4" fill="none"/>
+  <rect x="200" y="760" width="30" height="30" rx="5" fill="#F59E0B"/>
+  <text x="250" y="785" font-family="system-ui" font-size="42" font-weight="600" fill="#1F2937">Morning gratitude</text>
+  <text x="250" y="825" font-family="system-ui" font-size="32" fill="#6B7280">Think of 3 things you're grateful for</text>
+  <text x="250" y="865" font-family="system-ui" font-size="28" fill="#10B981">✓ Completed today • 7-day streak</text>
+  
+  <!-- Habit 2 - Completed -->
+  <rect x="90" y="950" width="1110" height="200" rx="20" fill="#FFFFFF" stroke="#10B981" stroke-width="3"/>
+  <circle cx="150" cy="1020" r="25" fill="#10B981"/>
+  <path d="M140 1020 L147 1027 L160 1010" stroke="white" stroke-width="4" fill="none"/>
+  <rect x="200" y="980" width="30" height="30" rx="5" fill="#8B5CF6"/>
+  <text x="250" y="1005" font-family="system-ui" font-size="42" font-weight="600" fill="#1F2937">Evening reflection</text>
+  <text x="250" y="1045" font-family="system-ui" font-size="32" fill="#6B7280">Reflect on your day and lessons learned</text>
+  <text x="250" y="1085" font-family="system-ui" font-size="28" fill="#10B981">✓ Completed today • 5-day streak</text>
+  
+  <!-- Habit 3 - Pending -->
+  <rect x="90" y="1170" width="1110" height="200" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <circle cx="150" cy="1240" r="25" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="2"/>
+  <rect x="200" y="1200" width="30" height="30" rx="5" fill="#06B6D4"/>
+  <text x="250" y="1225" font-family="system-ui" font-size="42" font-weight="600" fill="#1F2937">Mindful breathing</text>
+  <text x="250" y="1265" font-family="system-ui" font-size="32" fill="#6B7280">5 minutes of focused breathing</text>
+  <text x="250" y="1305" font-family="system-ui" font-size="28" fill="#6B7280">Tap to complete • 3-day streak</text>
+  <rect x="1000" y="1210" width="150" height="60" rx="30" fill="#10B981"/>
+  <text x="1075" y="1250" font-family="system-ui" font-size="32" font-weight="500" fill="white" text-anchor="middle">Complete</text>
+  
+  <!-- Add New Habit Button -->
+  <rect x="90" y="1420" width="1110" height="120" rx="20" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="2" stroke-dasharray="10,10"/>
+  <circle cx="550" cy="1480" r="30" fill="#10B981"/>
+  <text x="540" y="1490" font-family="system-ui" font-size="36" fill="white">+</text>
+  <text x="600" y="1490" font-family="system-ui" font-size="36" font-weight="500" fill="#6B7280">Add a new habit</text>
+  
+  <!-- Streak Calendar -->
+  <text x="90" y="1620" font-family="system-ui" font-size="42" font-weight="600" fill="#374151">This Week</text>
+  
+  <rect x="90" y="1660" width="1110" height="300" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Week Days -->
+  <text x="130" y="1710" font-family="system-ui" font-size="32" font-weight="500" fill="#6B7280">Mon</text>
+  <text x="280" y="1710" font-family="system-ui" font-size="32" font-weight="500" fill="#6B7280">Tue</text>
+  <text x="430" y="1710" font-family="system-ui" font-size="32" font-weight="500" fill="#6B7280">Wed</text>
+  <text x="580" y="1710" font-family="system-ui" font-size="32" font-weight="500" fill="#6B7280">Thu</text>
+  <text x="730" y="1710" font-family="system-ui" font-size="32" font-weight="500" fill="#6B7280">Fri</text>
+  <text x="880" y="1710" font-family="system-ui" font-size="32" font-weight="500" fill="#6B7280">Sat</text>
+  <text x="1030" y="1710" font-family="system-ui" font-size="32" font-weight="500" fill="#10B981">Sun</text>
+  
+  <!-- Completion Dots -->
+  <circle cx="150" cy="1780" r="20" fill="#10B981"/>
+  <circle cx="300" cy="1780" r="20" fill="#10B981"/>
+  <circle cx="450" cy="1780" r="20" fill="#10B981"/>
+  <circle cx="600" cy="1780" r="20" fill="#10B981"/>
+  <circle cx="750" cy="1780" r="20" fill="#10B981"/>
+  <circle cx="900" cy="1780" r="20" fill="#10B981"/>
+  <circle cx="1050" cy="1780" r="20" fill="#10B981" stroke="#059669" stroke-width="3"/>
+  
+  <text x="130" y="1825" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">3/3</text>
+  <text x="280" y="1825" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">3/3</text>
+  <text x="430" y="1825" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">2/3</text>
+  <text x="580" y="1825" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">3/3</text>
+  <text x="730" y="1825" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">3/3</text>
+  <text x="880" y="1825" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">3/3</text>
+  <text x="1030" y="1825" font-family="system-ui" font-size="28" fill="#10B981" text-anchor="middle">2/3</text>
+  
+  <text x="645" y="1890" font-family="system-ui" font-size="32" fill="#10B981" text-anchor="middle">🔥 7-day streak maintained!</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="60" y="2580" width="1170" height="150" fill="#FFFFFF"/>
+  <line x1="60" y1="2580" x2="1230" y2="2580" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Nav Items -->
+  <g>
+    <circle cx="225" cy="2630" r="30" fill="#F3F4F6"/>
+    <text x="215" y="2640" font-family="system-ui" font-size="24" fill="#6B7280">🏠</text>
+    <text x="225" y="2680" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">Home</text>
+  </g>
+  
+  <g>
+    <circle cx="450" cy="2630" r="30" fill="#F3F4F6"/>
+    <text x="440" y="2640" font-family="system-ui" font-size="24" fill="#6B7280">💭</text>
+    <text x="450" y="2680" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">Reflect</text>
+  </g>
+  
+  <g>
+    <circle cx="675" cy="2630" r="30" fill="#10B981"/>
+    <text x="665" y="2640" font-family="system-ui" font-size="24" fill="white">✓</text>
+    <text x="675" y="2680" font-family="system-ui" font-size="28" font-weight="500" fill="#10B981" text-anchor="middle">Habits</text>
+  </g>
+  
+  <g>
+    <circle cx="900" cy="2630" r="30" fill="#F3F4F6"/>
+    <text x="890" y="2640" font-family="system-ui" font-size="24" fill="#6B7280">📊</text>
+    <text x="900" y="2680" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">Progress</text>
+  </g>
+  
+  <g>
+    <circle cx="1125" cy="2630" r="30" fill="#F3F4F6"/>
+    <text x="1115" y="2640" font-family="system-ui" font-size="24" fill="#6B7280">👤</text>
+    <text x="1125" y="2680" font-family="system-ui" font-size="28" fill="#6B7280" text-anchor="middle">Profile</text>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

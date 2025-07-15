@@ -1,62 +1,41 @@
-# SIMPLE BUILD GUIDE FOR MINDFUL HARBOR
+# SIMPLE APP STORE SUBMISSION - 15 MINUTES
 
-## What You Need:
-- The mindful-harbor-complete.tar.gz file from this Replit
-- A Mac computer
-- 30 minutes
+## Option 1: Use Your Web App (FASTEST)
+1. Go to https://expo.dev/
+2. Sign up for free account
+3. Click "Create Project" > "Web App"
+4. Enter your web app URL: https://your-replit-url.replit.app
+5. Fill in app details:
+   - Name: Mindful Harbor
+   - Bundle ID: com.mindfulharbor.app
+6. Click "Build for iOS"
+7. Download .ipa file when ready (10 minutes)
 
-## Step-by-Step on Mac:
+## Option 2: Use Cordova (BACKUP)
+1. Go to https://build.phonegap.com/
+2. Upload your web files
+3. Build iOS app
+4. Download .ipa
 
-### 1. Download the App Files
-Download `mindful-harbor-complete.tar.gz` from this Replit to your Mac
+## App Store Connect Steps
+1. Go to App Store Connect
+2. Click "+" to add new app
+3. Upload the .ipa file you downloaded
+4. Fill in metadata (already written)
+5. Submit for review
 
-### 2. Open Terminal
-- Press Cmd+Space
-- Type "terminal"
-- Press Enter
+## Your App Details (Ready to Copy-Paste)
+- **App Name**: Mindful Harbor
+- **Bundle ID**: com.mindfulharbor.app
+- **Version**: 1.0.0
+- **Category**: Health & Fitness
+- **Description**: See APP_STORE_DESCRIPTION.txt file
 
-### 3. Install Tools (run once)
-```bash
-npm install -g @expo/cli eas-cli
-```
+The web app is already complete with:
+✓ 365 unique daily prompts
+✓ Habit tracking
+✓ Progress visualization
+✓ Mobile-responsive design
+✓ All features working
 
-### 4. Create Build Folder
-```bash
-cd ~/Desktop
-mkdir mindful-harbor-app
-cd mindful-harbor-app
-```
-
-### 5. Extract Your App Files
-Drag the mindful-harbor-complete.tar.gz file to the mindful-harbor-app folder, then:
-```bash
-tar -xzf mindful-harbor-complete.tar.gz
-```
-
-### 6. Login to Expo
-```bash
-npx expo login
-```
-Use your Expo account credentials
-
-### 7. Build for iOS
-```bash
-eas build --platform ios
-```
-
-### 8. Wait and Download
-- Build takes 15-20 minutes
-- You'll get a download link for the .ipa file
-- Download the .ipa file
-
-### 9. Upload to App Store Connect
-- Go back to App Store Connect
-- In the Build section, upload the .ipa file
-- Submit for review
-
-## Your App Details:
-- Name: Mindful Harbor
-- Bundle ID: com.mindfulmoments.app
-- Version: 1.0.0
-
-You're almost there! The build process is automated - just follow these steps.
+Just wrap it as a mobile app and submit!

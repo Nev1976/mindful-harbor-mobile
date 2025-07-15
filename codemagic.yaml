@@ -10,7 +10,10 @@ workflows:
           npm install --legacy-peer-deps
       - name: Install Expo CLI
         script: |
-          npm install -g @expo/cli
+          npm install -g expo-cli
+      - name: Install EAS CLI
+        script: |
+          npm install -g eas-cli
       - name: Build iOS app
         script: |
           eas build --platform ios --output=build

@@ -1,12 +1,11 @@
 {
+  "cli": {
+    "version": ">= 3.13.0"
+  },
   "build": {
     "production": {
-      "ios": {
-        "workflow": "generic"
-      },
-      "android": {
-        "workflow": "generic"
-      }
+      "workflow": "generic",
+      "platforms": ["android", "ios"]
     }
   }
 }

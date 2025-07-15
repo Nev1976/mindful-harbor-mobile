@@ -19,10 +19,6 @@ workflows:
         script: |
           npm install -g eas-cli
 
-      - name: Login to Expo
-        script: |
-          npx expo login --token $EXPO_TOKEN
-
       - name: Build iOS app
         script: |
           eas build --platform ios --non-interactive

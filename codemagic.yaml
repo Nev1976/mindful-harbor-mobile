@@ -5,7 +5,7 @@ workflows:
     environment:
       node: 18
       groups:
-      -mindfulness
+      - mindfulness
     scripts:
       - name: Install dependencies
         script: |

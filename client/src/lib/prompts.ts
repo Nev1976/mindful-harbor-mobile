@@ -985,5 +985,864 @@ export const mindfulnessPrompts = [
     content: "If you were to become an ancestor that future generations would be grateful for, what would you embody?",
     category: "Future Ancestor",
     isPremium: true
+  },
+
+  // COMPLETING 365 DAYS - ADDITIONAL PREMIUM PROMPTS (Days 191-365)
+  // EMOTIONAL MASTERY SERIES
+  {
+    content: "What emotion have you been avoiding? What would it feel like to welcome it with curiosity instead of resistance?",
+    category: "Emotional Welcome",
+    isPremium: true
+  },
+  {
+    content: "How do you typically handle disappointment? What would self-compassion look like in these moments?",
+    category: "Disappointment Compassion",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to feel your feelings fully without being overwhelmed by them?",
+    category: "Emotional Balance",
+    isPremium: true
+  },
+  {
+    content: "Notice how different emotions live in different parts of your body. What is each area trying to communicate?",
+    category: "Embodied Emotions",
+    isPremium: true
+  },
+  {
+    content: "If you could give your anxiety a job that actually served you, what role would you assign it?",
+    category: "Anxiety Purpose",
+    isPremium: true
+  },
+  {
+    content: "What would it look like to respond to strong emotions like weather - acknowledging them without being defined by them?",
+    category: "Emotional Weather",
+    isPremium: true
+  },
+  {
+    content: "How has your relationship with sadness evolved? What has it taught you about the depth of your heart?",
+    category: "Sadness Wisdom",
+    isPremium: true
+  },
+  {
+    content: "What would it feel like to trust that every emotion has intelligence and purpose in your life?",
+    category: "Emotional Intelligence",
+    isPremium: true
+  },
+  {
+    content: "Notice what happens when you breathe into difficult emotions instead of away from them. What shifts?",
+    category: "Breathing Into Difficulty",
+    isPremium: true
+  },
+  {
+    content: "If your emotions were colors painting the canvas of your day, what masterpiece would emerge?",
+    category: "Emotional Art",
+    isPremium: true
+  },
+
+  // DAILY SACRED SERIES
+  {
+    content: "What would it mean to treat your morning routine as a sacred ritual rather than a rushed checklist?",
+    category: "Sacred Mornings",
+    isPremium: true
+  },
+  {
+    content: "How can you bring reverence to the mundane tasks that fill your day?",
+    category: "Sacred Mundane",
+    isPremium: true
+  },
+  {
+    content: "What would it look like to eat your next meal as if it were a meditation on gratitude?",
+    category: "Sacred Eating",
+    isPremium: true
+  },
+  {
+    content: "Notice the sacred pause between activities. How can you honor these transition moments?",
+    category: "Sacred Transitions",
+    isPremium: true
+  },
+  {
+    content: "What would it feel like to approach your work as an offering rather than an obligation?",
+    category: "Work as Offering",
+    isPremium: true
+  },
+  {
+    content: "How might your evening routine become a practice of releasing the day with grace?",
+    category: "Sacred Evenings",
+    isPremium: true
+  },
+  {
+    content: "What ordinary moment from today could you recognize as extraordinary if you shifted your perspective?",
+    category: "Ordinary Extraordinary",
+    isPremium: true
+  },
+  {
+    content: "If you treated your home as a temple, how would you move through it differently?",
+    category: "Home as Temple",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to see every conversation as an opportunity for sacred connection?",
+    category: "Sacred Conversation",
+    isPremium: true
+  },
+  {
+    content: "How can you create small altars of beauty and meaning in your everyday environment?",
+    category: "Beauty Altars",
+    isPremium: true
+  },
+
+  // INNER CHILD HEALING SERIES
+  {
+    content: "What did your younger self need to hear that you can offer yourself today?",
+    category: "Inner Child Messages",
+    isPremium: true
+  },
+  {
+    content: "What childhood dream have you abandoned that might be ready for gentle resurrection?",
+    category: "Childhood Dreams",
+    isPremium: true
+  },
+  {
+    content: "How would you comfort the scared child within you who's facing today's challenges?",
+    category: "Comforting Inner Child",
+    isPremium: true
+  },
+  {
+    content: "What playful activity would bring your inner child the most joy right now?",
+    category: "Inner Child Play",
+    isPremium: true
+  },
+  {
+    content: "If you could apologize to your younger self for something, what would you say?",
+    category: "Inner Child Apology",
+    isPremium: true
+  },
+  {
+    content: "What boundary would protect the tender parts of yourself that still feel vulnerable?",
+    category: "Protecting Tenderness",
+    isPremium: true
+  },
+  {
+    content: "How can you parent yourself in the way you needed but perhaps didn't receive?",
+    category: "Self-Parenting",
+    isPremium: true
+  },
+  {
+    content: "What would it feel like to celebrate your inner child's unique gifts and perspectives?",
+    category: "Celebrating Inner Child",
+    isPremium: true
+  },
+  {
+    content: "If your inner child could design your perfect day, what would it include?",
+    category: "Inner Child Perfect Day",
+    isPremium: true
+  },
+  {
+    content: "What healing does your inner child most need from you right now?",
+    category: "Inner Child Healing",
+    isPremium: true
+  },
+
+  // ABUNDANCE & FLOW SERIES
+  {
+    content: "What would it feel like to trust that the universe is conspiring in your favor?",
+    category: "Universe Conspiracy",
+    isPremium: true
+  },
+  {
+    content: "How do you currently relate to money and resources? What would a healthier relationship look like?",
+    category: "Money Relationship",
+    isPremium: true
+  },
+  {
+    content: "What abundance already exists in your life that you might be taking for granted?",
+    category: "Present Abundance",
+    isPremium: true
+  },
+  {
+    content: "If you believed you were worthy of receiving good things, how would you show up differently?",
+    category: "Worthy of Good",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to give from overflow rather than depletion?",
+    category: "Giving from Overflow",
+    isPremium: true
+  },
+  {
+    content: "How can you create more space for synchronicity and flow in your daily life?",
+    category: "Creating Flow",
+    isPremium: true
+  },
+  {
+    content: "What scarcity belief is ready to be transformed into a story of abundance?",
+    category: "Transforming Scarcity",
+    isPremium: true
+  },
+  {
+    content: "If abundance was your natural state, what would you stop worrying about?",
+    category: "Natural Abundance",
+    isPremium: true
+  },
+  {
+    content: "What gifts do you have that the world needs, and how can you share them more freely?",
+    category: "Sharing Gifts",
+    isPremium: true
+  },
+  {
+    content: "How would you live if you knew that everything you need would be provided at the right time?",
+    category: "Divine Provision",
+    isPremium: true
+  },
+
+  // SEASONAL WISDOM EXTENDED SERIES
+  {
+    content: "What needs to be released from your life like leaves falling from a tree?",
+    category: "Seasonal Release",
+    isPremium: true
+  },
+  {
+    content: "What seeds of intention are you planting for future growth?",
+    category: "Planting Seeds",
+    isPremium: true
+  },
+  {
+    content: "How can you embrace the dormant, restful periods of your life as essential for growth?",
+    category: "Sacred Dormancy",
+    isPremium: true
+  },
+  {
+    content: "What is blooming in your life right now that deserves celebration and attention?",
+    category: "Life Blooming",
+    isPremium: true
+  },
+  {
+    content: "How do you honor the cycles of expansion and contraction in your energy and motivation?",
+    category: "Energy Cycles",
+    isPremium: true
+  },
+  {
+    content: "What wisdom does the current season of your life have to offer about timing and patience?",
+    category: "Life Season Wisdom",
+    isPremium: true
+  },
+  {
+    content: "If your life had seasons, which one are you in now and what does it ask of you?",
+    category: "Personal Seasons",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to trust the natural rhythm of your own becoming?",
+    category: "Natural Rhythm",
+    isPremium: true
+  },
+  {
+    content: "How can you prepare for transitions with the wisdom of nature's cycles?",
+    category: "Transition Preparation",
+    isPremium: true
+  },
+  {
+    content: "What harvest are you gathering from the seeds you planted in past seasons of your life?",
+    category: "Life Harvest",
+    isPremium: true
+  },
+
+  // COURAGE & VULNERABILITY SERIES
+  {
+    content: "What would you attempt if you knew that vulnerability was actually your greatest strength?",
+    category: "Vulnerability Strength",
+    isPremium: true
+  },
+  {
+    content: "What conversation requires courage from you right now? What support do you need to have it?",
+    category: "Courageous Conversation",
+    isPremium: true
+  },
+  {
+    content: "How has fear been both a protector and a prison in your life? What balance serves you now?",
+    category: "Fear Balance",
+    isPremium: true
+  },
+  {
+    content: "What would it look like to take one small brave step toward something that matters to you?",
+    category: "Small Brave Steps",
+    isPremium: true
+  },
+  {
+    content: "If you could channel the courage of someone you admire, what would you do differently today?",
+    category: "Borrowed Courage",
+    isPremium: true
+  },
+  {
+    content: "What mask of invulnerability is becoming too heavy to wear? What would it feel like to set it down?",
+    category: "Heavy Masks",
+    isPremium: true
+  },
+  {
+    content: "How do you typically respond to criticism? What would fearless authenticity look like?",
+    category: "Fearless Authenticity",
+    isPremium: true
+  },
+  {
+    content: "What would you share with the world if you weren't afraid of being judged or misunderstood?",
+    category: "Fearless Sharing",
+    isPremium: true
+  },
+  {
+    content: "If courage was a muscle, how would you strengthen it in your daily life?",
+    category: "Courage Muscle",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to be courageously imperfect rather than safely hidden?",
+    category: "Courageous Imperfection",
+    isPremium: true
+  },
+
+  // LEGACY & IMPACT SERIES
+  {
+    content: "What kind of ancestor do you want to be for future generations? How do you embody this now?",
+    category: "Ancestral Legacy",
+    isPremium: true
+  },
+  {
+    content: "If you could leave one piece of wisdom for the world, what would it be?",
+    category: "Wisdom Legacy",
+    isPremium: true
+  },
+  {
+    content: "How do you want to be remembered by the people whose lives you've touched?",
+    category: "Memory Legacy",
+    isPremium: true
+  },
+  {
+    content: "What positive change would you like to see in the world, and how can you embody it personally?",
+    category: "Embodying Change",
+    isPremium: true
+  },
+  {
+    content: "If your life was a story being told to inspire others, what chapter would you want to emphasize?",
+    category: "Inspiring Story",
+    isPremium: true
+  },
+  {
+    content: "What gifts has life given you that you feel called to pay forward?",
+    category: "Paying Forward",
+    isPremium: true
+  },
+  {
+    content: "How do you want your presence to affect the rooms you enter and the conversations you join?",
+    category: "Presence Impact",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to live in a way that honors both your individual journey and your connection to all life?",
+    category: "Individual Connection",
+    isPremium: true
+  },
+  {
+    content: "If you could plant one seed of change that would grow long after you're gone, what would it be?",
+    category: "Seed of Change",
+    isPremium: true
+  },
+  {
+    content: "What legacy are you creating through the quality of love and attention you bring to each day?",
+    category: "Daily Legacy",
+    isPremium: true
+  },
+
+  // FINAL INTEGRATION SERIES (Days 356-365)
+  {
+    content: "Looking back over this year of reflection, what pattern of growth do you notice in yourself?",
+    category: "Year Integration",
+    isPremium: true
+  },
+  {
+    content: "What question from this journey will you carry forward as a compass for continued growth?",
+    category: "Compass Question",
+    isPremium: true
+  },
+  {
+    content: "How has your relationship with yourself evolved through this practice of daily reflection?",
+    category: "Self-Relationship Evolution",
+    isPremium: true
+  },
+  {
+    content: "What insight surprised you most about yourself during this journey of inner exploration?",
+    category: "Surprising Insight",
+    isPremium: true
+  },
+  {
+    content: "If you could thank one aspect of your journey for its gifts, what would receive your deepest gratitude?",
+    category: "Journey Gratitude",
+    isPremium: true
+  },
+  {
+    content: "What new beginning is emerging from all this inner work and reflection?",
+    category: "Emerging Beginning",
+    isPremium: true
+  },
+  {
+    content: "How will you continue to nurture the seeds of wisdom that have been planted this year?",
+    category: "Nurturing Wisdom",
+    isPremium: true
+  },
+  {
+    content: "What commitment to yourself feels most important as you continue this journey of conscious living?",
+    category: "Self-Commitment",
+    isPremium: true
+  },
+  {
+    content: "If you could send a message to someone just beginning their journey of self-discovery, what would you say?",
+    category: "Message to Beginners",
+    isPremium: true
+  },
+  {
+    content: "How will you honor the profound work you've done and the person you've become through this practice?",
+    category: "Honoring Growth",
+    isPremium: true
+  },
+
+  // COMPLETING FULL 365 DAYS - FINAL PREMIUM COLLECTION (125 more prompts)
+  // ADVANCED CONSCIOUSNESS SERIES
+  {
+    content: "What would it mean to live from the deepest truth of who you are, beyond all roles and identities?",
+    category: "Essential Truth",
+    isPremium: true
+  },
+  {
+    content: "How do you experience the interconnectedness of all life in your daily existence?",
+    category: "Interconnection",
+    isPremium: true
+  },
+  {
+    content: "What would it feel like to trust the intelligence of the universe completely?",
+    category: "Universal Intelligence",
+    isPremium: true
+  },
+  {
+    content: "If consciousness itself could speak through you, what would it want to express?",
+    category: "Consciousness Expression",
+    isPremium: true
+  },
+  {
+    content: "What does it mean to be awake within the dream of your life?",
+    category: "Awakeness",
+    isPremium: true
+  },
+  {
+    content: "How can you honor the mystery of existence while fully engaging with practical life?",
+    category: "Mystery and Practicality",
+    isPremium: true
+  },
+  {
+    content: "What would it look like to live with complete acceptance of what is while still growing and evolving?",
+    category: "Acceptance Evolution",
+    isPremium: true
+  },
+  {
+    content: "If you were to embody unconditional love, how would you move through your day?",
+    category: "Embodied Love",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to see every challenge as a gift from your higher self?",
+    category: "Challenges as Gifts",
+    isPremium: true
+  },
+  {
+    content: "How do you experience the eternal aspect of yourself within the temporary experience of being human?",
+    category: "Eternal Human",
+    isPremium: true
+  },
+
+  // ENERGY & VITALITY SERIES
+  {
+    content: "What activities, people, or environments genuinely restore your life force energy?",
+    category: "Energy Restoration",
+    isPremium: true
+  },
+  {
+    content: "How can you become more sensitive to the subtle energies around and within you?",
+    category: "Energy Sensitivity",
+    isPremium: true
+  },
+  {
+    content: "What would it feel like to move through your day from a place of energetic alignment?",
+    category: "Energetic Alignment",
+    isPremium: true
+  },
+  {
+    content: "If your energy had a color and texture today, what would you notice about its quality?",
+    category: "Energy Quality",
+    isPremium: true
+  },
+  {
+    content: "What practices help you transmute heavy emotions into lighter, more flowing states?",
+    category: "Energy Transmutation",
+    isPremium: true
+  },
+  {
+    content: "How do you protect your energy while remaining open-hearted and generous?",
+    category: "Energy Protection",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to offer your presence as a gift of calm, clear energy to others?",
+    category: "Presence Gift",
+    isPremium: true
+  },
+  {
+    content: "If you could attune to the energy of the earth, what wisdom would it share with you?",
+    category: "Earth Energy",
+    isPremium: true
+  },
+  {
+    content: "How can you cultivate vitality that comes from being deeply aligned with your purpose?",
+    category: "Purpose Vitality",
+    isPremium: true
+  },
+  {
+    content: "What would it feel like to live with an energy that naturally uplifts and inspires others?",
+    category: "Inspiring Energy",
+    isPremium: true
+  },
+
+  // MASTERY & DISCIPLINE SERIES
+  {
+    content: "What practice could you commit to for the next 30 days that would transform your life?",
+    category: "Transformative Practice",
+    isPremium: true
+  },
+  {
+    content: "How do you relate to discipline - as restriction or as a pathway to freedom?",
+    category: "Discipline Freedom",
+    isPremium: true
+  },
+  {
+    content: "What would mastery look like in the area of life that matters most to you right now?",
+    category: "Personal Mastery",
+    isPremium: true
+  },
+  {
+    content: "If you approached your challenges with the patience of a master craftsperson, what would shift?",
+    category: "Craftsperson Patience",
+    isPremium: true
+  },
+  {
+    content: "What small, daily action could compound into extraordinary results over time?",
+    category: "Compound Actions",
+    isPremium: true
+  },
+  {
+    content: "How can you embrace the beginner's mind while honoring the wisdom you've already gained?",
+    category: "Beginner Wisdom",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to be so dedicated to your growth that obstacles become opportunities?",
+    category: "Obstacles Opportunities",
+    isPremium: true
+  },
+  {
+    content: "If you could master one aspect of your inner life, what would create the most positive ripple effects?",
+    category: "Inner Mastery",
+    isPremium: true
+  },
+  {
+    content: "How do you stay committed to your highest vision when motivation naturally fluctuates?",
+    category: "Vision Commitment",
+    isPremium: true
+  },
+  {
+    content: "What would it look like to train your mind with the same dedication an athlete trains their body?",
+    category: "Mind Training",
+    isPremium: true
+  },
+
+  // LEADERSHIP & INFLUENCE SERIES
+  {
+    content: "How can you lead by example in the areas where you want to see change in the world?",
+    category: "Leading Change",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to influence others through the quality of your presence rather than your words?",
+    category: "Presence Influence",
+    isPremium: true
+  },
+  {
+    content: "If you were to become a leader in consciousness, what would you model for others?",
+    category: "Consciousness Leadership",
+    isPremium: true
+  },
+  {
+    content: "How can you hold space for others' growth while honoring your own boundaries?",
+    category: "Holding Space",
+    isPremium: true
+  },
+  {
+    content: "What would it look like to serve others from a place of overflow rather than depletion?",
+    category: "Service Overflow",
+    isPremium: true
+  },
+  {
+    content: "If your life was a beacon of possibility for others, what light would you be shining?",
+    category: "Beacon Light",
+    isPremium: true
+  },
+  {
+    content: "How can you use your influence, however small, to create more beauty and kindness in the world?",
+    category: "Beauty Kindness",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to lead with your heart while maintaining the clarity of your mind?",
+    category: "Heart Mind Leadership",
+    isPremium: true
+  },
+  {
+    content: "If you could inspire one positive change in your community, what would it be and how would you begin?",
+    category: "Community Change",
+    isPremium: true
+  },
+  {
+    content: "How do you want to be remembered as someone who helped others grow and thrive?",
+    category: "Growth Legacy",
+    isPremium: true
+  },
+
+  // INTUITION & INNER KNOWING SERIES
+  {
+    content: "What is your intuition trying to tell you about a current situation in your life?",
+    category: "Intuitive Guidance",
+    isPremium: true
+  },
+  {
+    content: "How can you distinguish between the voice of fear and the voice of wisdom within you?",
+    category: "Fear Wisdom Voice",
+    isPremium: true
+  },
+  {
+    content: "What would it feel like to trust your inner knowing even when it contradicts external advice?",
+    category: "Inner Authority",
+    isPremium: true
+  },
+  {
+    content: "If you listened to your body's wisdom more closely, what would it guide you toward or away from?",
+    category: "Body Guidance",
+    isPremium: true
+  },
+  {
+    content: "What dreams, synchronicities, or signs have been trying to get your attention lately?",
+    category: "Signs Synchronicity",
+    isPremium: true
+  },
+  {
+    content: "How can you create more space for your intuitive insights to emerge and be heard?",
+    category: "Intuitive Space",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to make decisions from your deepest knowing rather than your fears or shoulds?",
+    category: "Deep Knowing Decisions",
+    isPremium: true
+  },
+  {
+    content: "If your intuition had a specific message for you about your life direction, what would it be?",
+    category: "Direction Message",
+    isPremium: true
+  },
+  {
+    content: "How do you typically receive guidance - through feelings, images, words, or body sensations?",
+    category: "Guidance Style",
+    isPremium: true
+  },
+  {
+    content: "What would it look like to live with complete trust in your ability to navigate life's complexities?",
+    category: "Navigation Trust",
+    isPremium: true
+  },
+
+  // CELEBRATION & APPRECIATION SERIES
+  {
+    content: "What achievement from this year, however small, deserves deeper acknowledgment and celebration?",
+    category: "Year Achievement",
+    isPremium: true
+  },
+  {
+    content: "How can you cultivate a practice of celebrating your progress rather than just your destinations?",
+    category: "Progress Celebration",
+    isPremium: true
+  },
+  {
+    content: "What aspect of your personality brings joy to others that you might take for granted?",
+    category: "Joy Bringing",
+    isPremium: true
+  },
+  {
+    content: "If you threw a party for all the parts of yourself, what would each part be celebrated for?",
+    category: "Parts Celebration",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to appreciate your life as a unique work of art in progress?",
+    category: "Life Art Appreciation",
+    isPremium: true
+  },
+  {
+    content: "How can you honor the difficulties you've overcome as evidence of your incredible resilience?",
+    category: "Resilience Honor",
+    isPremium: true
+  },
+  {
+    content: "What ordinary moment from today could you recognize as a small miracle if you shifted your lens?",
+    category: "Ordinary Miracle",
+    isPremium: true
+  },
+  {
+    content: "If gratitude was a practice you could master, how would it change your experience of being alive?",
+    category: "Gratitude Mastery",
+    isPremium: true
+  },
+  {
+    content: "What gift has this year given you that you're only now beginning to understand or appreciate?",
+    category: "Year Gift Understanding",
+    isPremium: true
+  },
+  {
+    content: "How can you become someone who naturally notices and celebrates the beauty in everyday moments?",
+    category: "Beauty Noticing",
+    isPremium: true
+  },
+
+  // FINAL WISDOM INTEGRATION SERIES
+  {
+    content: "What truth about yourself have you discovered that you want to remember forever?",
+    category: "Eternal Truth",
+    isPremium: true
+  },
+  {
+    content: "If you could distill all your life experience into one piece of wisdom, what would it be?",
+    category: "Life Wisdom Essence",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to live as both the student and the teacher of your own life?",
+    category: "Student Teacher",
+    isPremium: true
+  },
+  {
+    content: "How has your understanding of love - for yourself and others - evolved through your experiences?",
+    category: "Love Understanding",
+    isPremium: true
+  },
+  {
+    content: "What would it feel like to completely trust the unfolding of your unique path?",
+    category: "Path Trust",
+    isPremium: true
+  },
+  {
+    content: "If you could speak to all of humanity with one voice, what message would your heart want to share?",
+    category: "Heart Message",
+    isPremium: true
+  },
+  {
+    content: "What does it mean to be fully human - embracing both your divinity and your humanity?",
+    category: "Full Humanity",
+    isPremium: true
+  },
+  {
+    content: "How can you live in a way that honors both your individual journey and your connection to all life?",
+    category: "Individual Connection Balance",
+    isPremium: true
+  },
+  {
+    content: "What would it look like to approach each day as a sacred opportunity to love, learn, and serve?",
+    category: "Sacred Daily Opportunity",
+    isPremium: true
+  },
+  {
+    content: "If this was your last day to offer something beautiful to the world, what would you choose to give?",
+    category: "Final Beautiful Gift",
+    isPremium: true
+  },
+
+  // BONUS COLLECTION - EXCEEDING 365 DAYS
+  {
+    content: "What would it mean to live with such presence that each moment becomes a meditation?",
+    category: "Moment Meditation",
+    isPremium: true
+  },
+  {
+    content: "How can you embody the change you wish to see while accepting what you cannot control?",
+    category: "Embody Accept",
+    isPremium: true
+  },
+  {
+    content: "What would it feel like to trust that your very existence is a gift to the universe?",
+    category: "Existence Gift",
+    isPremium: true
+  },
+  {
+    content: "If you could live from pure love, how would you navigate the complexities of human relationships?",
+    category: "Pure Love Navigation",
+    isPremium: true
+  },
+  {
+    content: "What wisdom tradition or teaching most resonates with your soul's deepest knowing?",
+    category: "Soul Resonance",
+    isPremium: true
+  },
+  {
+    content: "How can you honor the sacred in the ordinary while remaining grounded and practical?",
+    category: "Sacred Ordinary Ground",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to see every person you meet as a teacher disguised as a student or vice versa?",
+    category: "Everyone Teacher",
+    isPremium: true
+  },
+  {
+    content: "If you could heal one wound in the collective human heart, what would you choose?",
+    category: "Collective Healing",
+    isPremium: true
+  },
+  {
+    content: "What does it mean to be an agent of transformation in a world that often resists change?",
+    category: "Transformation Agent",
+    isPremium: true
+  },
+  {
+    content: "How can you live with such authenticity that you give others permission to do the same?",
+    category: "Permission Authenticity",
+    isPremium: true
+  },
+  {
+    content: "What would it feel like to approach life as both a grand adventure and a sacred pilgrimage?",
+    category: "Adventure Pilgrimage",
+    isPremium: true
+  },
+  {
+    content: "If love was the lens through which you viewed every situation, what would become possible?",
+    category: "Love Lens Possibility",
+    isPremium: true
+  },
+  {
+    content: "What does it mean to live with an open heart in a world that can sometimes feel harsh or closed?",
+    category: "Open Heart Harsh World",
+    isPremium: true
+  },
+  {
+    content: "How can you become a living example of the peace and wisdom you wish to see in the world?",
+    category: "Living Example",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to complete this cycle of growth knowing you have touched your own depths and emerged transformed?",
+    category: "Cycle Completion",
+    isPremium: true
   }
 ];

@@ -6,6 +6,11 @@ import { z } from "zod";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   
+  // Support page
+  app.get("/support", (req, res) => {
+    res.sendFile("support.html", { root: "public" });
+  });
+  
   // Get daily prompt
   app.get("/api/daily-prompt", async (req, res) => {
     try {

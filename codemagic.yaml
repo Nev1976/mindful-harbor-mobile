@@ -21,7 +21,7 @@ workflows:
 
       - name: Build iOS app
         script: |
-          eas build --platform ios --non-interactive --profile=production
+          expo build:ios --non-interactive
 
     artifacts:
       - '*.ipa'

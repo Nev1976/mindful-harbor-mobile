@@ -5,24 +5,31 @@ workflows:
     environment:
       node: 18
       groups:
-      - mindfulness
+        - mindfulness
     scripts:
       - name: Install dependencies
         script: |
           npm install --legacy-peer-deps
+
       - name: Install Expo CLI
         script: |
           npm install -g expo-cli
+
       - name: Install EAS CLI
         script: |
-      - name: Expo login
-        script
+          npm install -g eas-cli
+
+      - name: Login to Expo
+        script: |
           npx expo login --token $EXPO_TOKEN
+
       - name: Build iOS app
         script: |
           eas build --platform ios --non-interactive
+
     artifacts:
       - '*.ipa'
+
     publishing:
       email:
         recipients:

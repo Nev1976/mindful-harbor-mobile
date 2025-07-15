@@ -795,5 +795,195 @@ export const mindfulnessPrompts = [
     content: "What new beginning is wanting to emerge as this cycle of your life comes to completion?",
     category: "New Beginnings",
     isPremium: true
+  },
+
+  // BONUS COLLECTION - REACHING 365 DAYS (Days 366-500+)
+  // SEASONAL AWARENESS SERIES
+  {
+    content: "How does the current season mirror what's happening in your inner landscape right now?",
+    category: "Seasonal Wisdom",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to move through your day with the rhythm of nature rather than the rush of productivity?",
+    category: "Natural Rhythm",
+    isPremium: true
+  },
+  {
+    content: "If you could embody the patience of a tree growing, how would you approach your current challenges?",
+    category: "Tree Patience",
+    isPremium: true
+  },
+  {
+    content: "What does your body know about rest that your mind keeps forgetting? How can you honor this wisdom?",
+    category: "Body Wisdom Rest",
+    isPremium: true
+  },
+  {
+    content: "Notice how light changes throughout your day. How does this affect your energy and mood?",
+    category: "Light Sensitivity",
+    isPremium: true
+  },
+
+  // RELATIONSHIP DEPTH SERIES
+  {
+    content: "What would it look like to love someone exactly as they are while holding space for who they're becoming?",
+    category: "Unconditional Love",
+    isPremium: true
+  },
+  {
+    content: "How do you show up differently in relationships when you're feeling secure versus insecure?",
+    category: "Relationship Security",
+    isPremium: true
+  },
+  {
+    content: "What conversation have you been avoiding that might actually deepen a relationship you care about?",
+    category: "Difficult Conversations",
+    isPremium: true
+  },
+  {
+    content: "Notice how you mirror the energy of people around you. What energy do you want to bring to others?",
+    category: "Energy Mirroring",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to be fully yourself in relationship rather than who you think others want you to be?",
+    category: "Authentic Relating",
+    isPremium: true
+  },
+
+  // CREATIVE CONSCIOUSNESS SERIES
+  {
+    content: "What wants to be created through you that has nothing to do with achievement or recognition?",
+    category: "Pure Creation",
+    isPremium: true
+  },
+  {
+    content: "If your life was a work of art, what medium would it be and what story would it tell?",
+    category: "Life as Art",
+    isPremium: true
+  },
+  {
+    content: "What would you create if you knew it was impossible to fail or be judged?",
+    category: "Fearless Creation",
+    isPremium: true
+  },
+  {
+    content: "Notice what happens to time when you're in the flow of creating. What does this teach you about presence?",
+    category: "Creative Flow",
+    isPremium: true
+  },
+  {
+    content: "What aspect of your creativity have you been hiding from the world? What would courage look like here?",
+    category: "Hidden Creativity",
+    isPremium: true
+  },
+
+  // SHADOW INTEGRATION SERIES
+  {
+    content: "What quality in others triggers you most? How might this be showing you something you haven't accepted in yourself?",
+    category: "Trigger Wisdom",
+    isPremium: true
+  },
+  {
+    content: "What part of yourself do you judge most harshly? What would it be like to approach this part with curiosity instead?",
+    category: "Self-Judgment",
+    isPremium: true
+  },
+  {
+    content: "If your anger could speak wisely, what boundary or truth would it be trying to protect?",
+    category: "Anger Wisdom",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to befriend the parts of yourself you've been trying to fix or hide?",
+    category: "Befriending Shadow",
+    isPremium: true
+  },
+  {
+    content: "How has your pain been one of your greatest teachers? What has it opened in you that nothing else could?",
+    category: "Pain as Teacher",
+    isPremium: true
+  },
+
+  // MYSTERY & WONDER SERIES
+  {
+    content: "What mystery about existence fills you with the most wonder? How does this sense of awe affect your daily life?",
+    category: "Existential Wonder",
+    isPremium: true
+  },
+  {
+    content: "If you could have coffee with the cosmos, what question would you most want to ask?",
+    category: "Cosmic Curiosity",
+    isPremium: true
+  },
+  {
+    content: "What makes you feel most connected to the larger web of life? How can you cultivate more of this connection?",
+    category: "Life Web",
+    isPremium: true
+  },
+  {
+    content: "Notice the miracle of your consciousness being able to observe itself. How does this awareness change your perspective?",
+    category: "Consciousness Miracle",
+    isPremium: true
+  },
+  {
+    content: "What would it feel like to live with more questions than answers, more wonder than certainty?",
+    category: "Living Questions",
+    isPremium: true
+  },
+
+  // INTEGRATION & WHOLENESS SERIES
+  {
+    content: "How are all the different aspects of yourself – light and shadow, strong and vulnerable – coming together in wholeness?",
+    category: "Integration",
+    isPremium: true
+  },
+  {
+    content: "What would it mean to stop trying to be someone else's version of enlightened and embrace your own unique awakening?",
+    category: "Unique Awakening",
+    isPremium: true
+  },
+  {
+    content: "If you could integrate one lesson from your most difficult period into your current life, what would serve you most?",
+    category: "Difficulty Integration",
+    isPremium: true
+  },
+  {
+    content: "What does spiritual maturity look like for you, beyond any concepts or traditions you've learned?",
+    category: "Spiritual Maturity",
+    isPremium: true
+  },
+  {
+    content: "How has your understanding of love evolved? What new depths are you discovering?",
+    category: "Love Evolution",
+    isPremium: true
+  },
+
+  // VISIONARY LIVING SERIES
+  {
+    content: "If you could plant seeds today that would bloom into the world you want to see, what would you plant?",
+    category: "Visionary Seeds",
+    isPremium: true
+  },
+  {
+    content: "What legacy do you want to leave through the way you love, create, and show up in the world?",
+    category: "Living Legacy",
+    isPremium: true
+  },
+  {
+    content: "How would you live differently if you truly believed your presence makes a difference?",
+    category: "Presence Matters",
+    isPremium: true
+  },
+  {
+    content: "What vision for your life feels so authentic it scares and excites you in equal measure?",
+    category: "Authentic Vision",
+    isPremium: true
+  },
+  {
+    content: "If you were to become an ancestor that future generations would be grateful for, what would you embody?",
+    category: "Future Ancestor",
+    isPremium: true
   }
 ];

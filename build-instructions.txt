@@ -1,0 +1,18 @@
+EXPO BUILD INSTRUCTIONS FOR MINDFUL HARBOR
+
+1. Open terminal on your computer
+2. Run: npm install -g @expo/cli
+3. Navigate to a new folder: mkdir mindful-harbor && cd mindful-harbor
+4. Copy these files from Replit to this folder:
+   - All files from the /mobile directory
+
+5. Run: npx expo login
+6. Run: npx expo install --fix
+7. Run: npx eas build --platform ios
+
+Your Expo project details:
+- Project name: Mindful Harbor
+- Slug: mindful-harbor
+- Bundle ID: com.mindfulmoments.app
+
+The build will take 10-15 minutes and give you a .ipa file to upload to App Store Connect.

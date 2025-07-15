@@ -16,7 +16,7 @@ workflows:
           npm install -g eas-cli
       - name: Build iOS app
         script: |
-          eas build --platform ios --output=build
+          eas build --platform ios --non-interactive
     artifacts:
       - '*.ipa'
     publishing:

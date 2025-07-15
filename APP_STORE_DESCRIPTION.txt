@@ -1,8 +1,29 @@
 MINDFUL HARBOR - APP STORE DESCRIPTION
 
-Transform Your Inner World. One Profound Question at a Time.
+TITLE OPTIONS (Choose the most powerful):
 
-Mindful Harbor isn't just another mindfulness app—it's your personal guide to deep transformation. Each day, unlock a carefully crafted reflection designed by psychology experts to spark insight, cultivate joy, and awaken the wisdom already within you.
+OPTION 1: "Mindful Harbor: 365 Days of Deep Self-Discovery"
+
+OPTION 2: "Mindful Harbor: Your Year-Long Journey to Inner Wisdom" 
+
+OPTION 3: "Mindful Harbor: Transform Through 365 Profound Questions"
+
+OPTION 4: "Mindful Harbor: Daily Reflections for Life Transformation"
+
+OPTION 5: "Mindful Harbor: 365 Days of Psychology-Backed Growth"
+
+RECOMMENDED TITLE: "Mindful Harbor: 365 Days of Deep Self-Discovery"
+
+SUBTITLE: "Transform your inner world with expert-designed daily reflection prompts"
+
+PROMOTIONAL TEXT (First Lines):
+Discover who you truly are through 365 unique, psychology-backed questions that will transform your relationship with yourself and the world around you.
+
+MAIN DESCRIPTION:
+
+Break free from surface-level mindfulness. Mindful Harbor delivers 365 unique, expertly-crafted questions that guide you through a complete year of profound self-discovery without a single repeated prompt.
+
+Unlike other apps that recycle generic content, each reflection is psychology-backed and designed to unlock deeper layers of insight, wisdom, and authentic transformation.
 
 🌟 What Makes Us Different:
 • 365 Unique Daily Prompts - Never repeat the same question for an entire year

@@ -13,7 +13,7 @@ workflows:
           npm install -g @expo/cli
       - name: Build iOS app
         script: |
-          expo build:ios --type archive
+          eas build --platform ios --output=build
     artifacts:
       - '*.ipa'
     publishing:

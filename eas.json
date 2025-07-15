@@ -1,7 +1,12 @@
 {
   "build": {
-    "ios": {
-      "workflow": "managed"
+    "production": {
+      "ios": {
+        // other valid options, but NOT "workflow"
+      },
+      "android": {
+        // settings
+      }
     }
   }
 }

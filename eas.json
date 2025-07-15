@@ -4,7 +4,7 @@
   },
   "build": {
     "development": {
-      "buildType": "development-client",
+      "buildType": "development-client", 
       "developmentClient": true,
       "distribution": "internal"
     },
@@ -12,7 +12,10 @@
       "buildType": "development-client"
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "ios": {
+        "enterpriseProvisioning": "universal"
+      }
     }
   },
   "submit": {

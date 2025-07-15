@@ -16,7 +16,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.mindfulmoments.app",
+      "bundleIdentifier": "com.mindfulharbor.app",
       "buildNumber": "1.0.0"
     },
     "android": {

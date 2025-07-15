@@ -10,18 +10,22 @@ workflows:
       - name: Install dependencies
         script: |
           npm install --legacy-peer-deps
+
       - name: Install Expo CLI
         script: |
           npm install -g expo-cli
+
       - name: Install EAS CLI
         script: |
           npm install -g eas-cli
+
       - name: Build iOS app
         script: |
-          export EXPO_TOKEN=$EXPO_TOKEN
-          eas build --platform ios --non-interactive
+          eas build --platform ios --non-interactive --profile=production
+
     artifacts:
       - '*.ipa'
+
     publishing:
       email:
         recipients:

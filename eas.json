@@ -3,11 +3,15 @@
     "version": ">= 3.13.0"
   },
   "build": {
-    "ios": {
-      "workflow": "generic"
-    },
-    "android": {
-      "workflow": "generic"
+    "production": {
+      "developmentClient": false,
+      "distribution": "store",
+      "android": {
+        "workflow": "generic"
+      },
+      "ios": {
+        "workflow": "generic"
+      }
     }
   }
 }

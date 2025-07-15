@@ -11,7 +11,7 @@ export default function Header() {
               <Heart className="text-white text-sm w-4 h-4" />
             </div>
             <h1 className="text-lg font-medium text-warm-gray-800">
-              Mindful Harbour
+              Mindful Harbor
             </h1>
           </div>
           <Button 

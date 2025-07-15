@@ -2,10 +2,10 @@
   "build": {
     "production": {
       "ios": {
-        // other valid options, but NOT "workflow"
+        "workflow": "generic"
       },
       "android": {
-        // settings
+        "workflow": "generic"
       }
     }
   }

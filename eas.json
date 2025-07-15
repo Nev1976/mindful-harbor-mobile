@@ -1,0 +1,21 @@
+{
+  "cli": {
+    "version": ">= 16.0.0"
+  },
+  "build": {
+    "development": {
+      "buildType": "development-client",
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "buildType": "development-client"
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

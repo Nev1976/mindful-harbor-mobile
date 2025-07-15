@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dcfce7"/>
+      <stop offset="100%" stop-color="#bbf7d0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="512" cy="512" r="480" fill="url(#bg)"/>
+  
+  <!-- Mindfulness leaf/lotus symbol -->
+  <g transform="translate(512,512)">
+    <!-- Central circle -->
+    <circle cx="0" cy="0" r="120" fill="url(#leaf)" opacity="0.9"/>
+    
+    <!-- Leaf petals -->
+    <path d="M0,-200 Q-80,-120 0,-40 Q80,-120 0,-200" fill="url(#leaf)" opacity="0.8"/>
+    <path d="M141,-141 Q120,-61 40,0 Q120,61 141,-141" fill="url(#leaf)" opacity="0.8" transform="rotate(45)"/>
+    <path d="M200,0 Q120,80 40,0 Q120,-80 200,0" fill="url(#leaf)" opacity="0.8" transform="rotate(90)"/>
+    <path d="M141,141 Q61,120 0,40 Q-61,120 141,141" fill="url(#leaf)" opacity="0.8" transform="rotate(135)"/>
+    <path d="M0,200 Q80,120 0,40 Q-80,120 0,200" fill="url(#leaf)" opacity="0.8" transform="rotate(180)"/>
+    <path d="M-141,141 Q-120,61 -40,0 Q-120,-61 -141,141" fill="url(#leaf)" opacity="0.8" transform="rotate(225)"/>
+    <path d="M-200,0 Q-120,-80 -40,0 Q-120,80 -200,0" fill="url(#leaf)" opacity="0.8" transform="rotate(270)"/>
+    <path d="M-141,-141 Q-61,-120 0,-40 Q61,-120 -141,-141" fill="url(#leaf)" opacity="0.8" transform="rotate(315)"/>
+    
+    <!-- Inner glow -->
+    <circle cx="0" cy="0" r="80" fill="white" opacity="0.3"/>
+    <circle cx="0" cy="0" r="40" fill="white" opacity="0.5"/>
+  </g>
+</svg>

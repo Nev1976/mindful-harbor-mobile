@@ -58,6 +58,15 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="premium"
+        options={{
+          title: 'Premium',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="star-outline" size={size} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }

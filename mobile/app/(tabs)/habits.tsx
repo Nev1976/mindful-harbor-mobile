@@ -15,12 +15,15 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { api } from '../lib/api';
 import { format } from 'date-fns';
 import * as Haptics from 'expo-haptics';
+import { subscriptionManager } from '../lib/subscription';
+import PremiumGate from '../components/PremiumGate';
 
 export default function HabitsScreen() {
   const [showAddModal, setShowAddModal] = useState(false);
   const [newHabitName, setNewHabitName] = useState('');
   const [newHabitDescription, setNewHabitDescription] = useState('');
   const [selectedColor, setSelectedColor] = useState('#10b981');
+  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
   
   const queryClient = useQueryClient();
   const today = format(new Date(), 'yyyy-MM-dd');
@@ -55,9 +58,25 @@ export default function HabitsScreen() {
     },
   });
 
-  const handleCreateHabit = () => {
+  const handleCreateHabit = async () => {
     if (!newHabitName.trim()) {
       Alert.alert('Error', 'Please enter a habit name.');
+      return;
+    }
+
+    // Check if user can create more habits
+    const maxHabits = await subscriptionManager.getMaxHabitsAllowed();
+    const currentHabitsCount = habits?.length || 0;
+    
+    if (currentHabitsCount >= maxHabits) {
+      Alert.alert(
+        'Upgrade to Premium',
+        'Free users can create up to 3 habits. Upgrade to Premium for unlimited habits!',
+        [
+          { text: 'Maybe Later', style: 'cancel' },
+          { text: 'Upgrade', onPress: () => setShowUpgradeModal(true) }
+        ]
+      );
       return;
     }
 

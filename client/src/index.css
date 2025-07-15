@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(342, 2%, 13%);
+  --muted: hsl(180, 25%, 96%);
+  --muted-foreground: hsl(25, 5%, 45%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(342, 2%, 13%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(342, 2%, 13%);
+  --border: hsl(180, 12%, 88%);
+  --input: hsl(180, 12%, 88%);
+  --primary: hsl(180, 98%, 41%);
+  --primary-foreground: hsl(208, 100%, 99%);
+  --secondary: hsl(180, 25%, 96%);
+  --secondary-foreground: hsl(344, 10%, 10%);
+  --accent: hsl(180, 25%, 96%);
+  --accent-foreground: hsl(344, 10%, 10%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(60, 9%, 98%);
+  --ring: hsl(342, 2%, 13%);
+  --radius: 0.5rem;
+
+  /* Custom mindfulness app colors */
+  --teal-50: hsl(180, 75%, 94%);
+  --teal-100: hsl(180, 69%, 85%);
+  --teal-200: hsl(180, 60%, 75%);
+  --teal-300: hsl(180, 55%, 65%);
+  --teal-400: hsl(180, 98%, 41%);
+  --teal-500: hsl(180, 100%, 37%);
+  --teal-600: hsl(180, 100%, 33%);
+  --teal-700: hsl(180, 100%, 25%);
+  --teal-800: hsl(180, 100%, 20%);
+  --teal-900: hsl(180, 100%, 15%);
+
+  --sage-50: hsl(88, 50%, 95%);
+  --sage-100: hsl(86, 39%, 84%);
+  --sage-200: hsl(87, 34%, 73%);
+  --sage-300: hsl(88, 32%, 61%);
+  --sage-400: hsl(87, 28%, 52%);
+  --sage-500: hsl(88, 51%, 35%);
+  --sage-600: hsl(87, 55%, 30%);
+  --sage-700: hsl(88, 60%, 22%);
+  --sage-800: hsl(87, 65%, 17%);
+  --sage-900: hsl(88, 71%, 11%);
+
+  --coral-50: hsl(36, 100%, 95%);
+  --coral-100: hsl(36, 100%, 85%);
+  --coral-200: hsl(36, 100%, 75%);
+  --coral-300: hsl(36, 100%, 65%);
+  --coral-400: hsl(36, 100%, 58%);
+  --coral-500: hsl(36, 100%, 50%);
+  --coral-600: hsl(33, 100%, 49%);
+  --coral-700: hsl(30, 100%, 48%);
+  --coral-800: hsl(27, 100%, 47%);
+  --coral-900: hsl(21, 100%, 45%);
+
+  --warm-gray-50: hsl(0, 0%, 98%);
+  --warm-gray-100: hsl(0, 0%, 96%);
+  --warm-gray-200: hsl(0, 0%, 93%);
+  --warm-gray-300: hsl(0, 0%, 88%);
+  --warm-gray-400: hsl(0, 0%, 74%);
+  --warm-gray-500: hsl(0, 0%, 62%);
+  --warm-gray-600: hsl(0, 0%, 46%);
+  --warm-gray-700: hsl(0, 0%, 38%);
+  --warm-gray-800: hsl(0, 0%, 26%);
+  --warm-gray-900: hsl(0, 0%, 13%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 4%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 4%, 16%);
+  --muted-foreground: hsl(240, 5%, 65%);
+  --popover: hsl(240, 10%, 4%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 4%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 4%, 16%);
+  --input: hsl(240, 4%, 16%);
+  --primary: hsl(180, 98%, 41%);
+  --primary-foreground: hsl(208, 100%, 99%);
+  --secondary: hsl(240, 4%, 16%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 4%, 16%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 63%, 31%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 5%, 84%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased text-foreground min-h-screen;
+    background: linear-gradient(to bottom right, 
+      hsla(180, 75%, 94%, 0.3), 
+      hsl(0, 0%, 96%), 
+      hsla(88, 50%, 95%, 0.3)
+    );
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .mindful-card {
+    @apply bg-white/80 backdrop-blur-md shadow-lg border border-teal-50 rounded-2xl transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+  
+  .mindful-gradient {
+    @apply bg-gradient-to-r from-teal-400 to-sage-400;
+  }
+  
+  .micro-moment-card {
+    @apply bg-white rounded-xl shadow-md border hover:shadow-lg transition-all duration-200 hover:-translate-y-0.5;
+  }
+}
+
+@layer utilities {
+  .animate-breathe {
+    animation: breathe 4s ease-in-out infinite;
+  }
+  
+  .animate-gentle-bounce {
+    animation: gentle-bounce 2s ease-in-out infinite;
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.6s ease-out;
+  }
+  
+  .animate-slide-up {
+    animation: slide-up 0.4s ease-out;
+  }
+
+  @keyframes breathe {
+    0%, 100% { 
+      transform: scale(1); 
+      opacity: 0.8; 
+    }
+    50% { 
+      transform: scale(1.05); 
+      opacity: 1; 
+    }
+  }
+
+  @keyframes gentle-bounce {
+    0%, 100% { 
+      transform: translateY(0); 
+    }
+    50% { 
+      transform: translateY(-4px); 
+    }
+  }
+
+  @keyframes fade-in {
+    0% { 
+      opacity: 0; 
+      transform: translateY(10px); 
+    }
+    100% { 
+      opacity: 1; 
+      transform: translateY(0); 
+    }
+  }
+
+  @keyframes slide-up {
+    0% { 
+      transform: translateY(20px); 
+      opacity: 0; 
+    }
+    100% { 
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+  }
+}

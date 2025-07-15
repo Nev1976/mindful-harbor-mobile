@@ -129,11 +129,11 @@ export default function Profile() {
         {/* About */}
         <Card className="mindful-card">
           <CardHeader>
-            <CardTitle className="text-lg">About Mindful Moments</CardTitle>
+            <CardTitle className="text-lg">About Mindful Harbor</CardTitle>
           </CardHeader>
           <CardContent className="space-y-3">
             <p className="text-sm text-warm-gray-600 leading-relaxed">
-              Mindful Moments is designed to help you cultivate happiness and presence in everyday life through 
+              Mindful Harbor is designed to help you cultivate happiness and presence in everyday life through 
               evidence-based mindfulness practices, gentle reminders, and meaningful reflections.
             </p>
             <div className="pt-2 text-xs text-warm-gray-500">

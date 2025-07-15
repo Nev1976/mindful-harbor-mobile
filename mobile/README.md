@@ -1,6 +1,6 @@
-# Mindful Moments - Mobile App
+# Mindful Harbor - Mobile App
 
-This is the React Native mobile version of the Mindful Moments mindfulness and wellness app, built for iOS and Android app stores.
+This is the React Native mobile version of the Mindful Harbor mindfulness and wellness app, built for iOS and Android app stores.
 
 ## Features
 

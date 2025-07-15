@@ -1,8 +1,8 @@
-# Mindful Moments - A Wellness and Mindfulness App
+# Mindful Harbor - A Wellness and Mindfulness App
 
 ## Overview
 
-Mindful Moments is a modern web application focused on mental wellness and mindfulness practices. It provides users with daily reflection prompts, habit tracking, micro-moment activities, and progress visualization to support their mindfulness journey. The app features a clean, calming design with a mobile-first approach and responsive UI components.
+Mindful Harbor is a modern web application focused on mental wellness and mindfulness practices. It provides users with daily reflection prompts, habit tracking, micro-moment activities, and progress visualization to support their mindfulness journey. The app features a clean, calming design with a mobile-first approach and responsive UI components.
 
 ## User Preferences
 

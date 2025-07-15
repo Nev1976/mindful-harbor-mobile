@@ -139,14 +139,18 @@ export class MemStorage implements IStorage {
     return Array.from(this.prompts.values());
   }
 
-  async getUnusedPrompt(): Promise<Prompt | undefined> {
-    const unusedPrompts = Array.from(this.prompts.values()).filter(prompt => !prompt.isUsed);
+  async getUnusedPrompt(isPremiumUser: boolean = false): Promise<Prompt | undefined> {
+    const allPrompts = Array.from(this.prompts.values());
+    // For demo, all prompts are available. In production, filter by premium status
+    const availablePrompts = allPrompts;
+    
+    const unusedPrompts = availablePrompts.filter(prompt => !prompt.isUsed);
     if (unusedPrompts.length === 0) {
       // Reset all prompts if none available
-      Array.from(this.prompts.values()).forEach(prompt => {
+      availablePrompts.forEach(prompt => {
         prompt.isUsed = false;
       });
-      return Array.from(this.prompts.values())[Math.floor(Math.random() * this.prompts.size)];
+      return availablePrompts[Math.floor(Math.random() * availablePrompts.length)];
     }
     return unusedPrompts[Math.floor(Math.random() * unusedPrompts.length)];
   }

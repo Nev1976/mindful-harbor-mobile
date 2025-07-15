@@ -1844,5 +1844,57 @@ export const mindfulnessPrompts = [
     content: "What would it mean to complete this cycle of growth knowing you have touched your own depths and emerged transformed?",
     category: "Cycle Completion",
     isPremium: true
+  },
+
+  // FINAL 10 PROMPTS - MINDFUL PRESENCE & NATURAL BEAUTY (Days 356-365)
+  {
+    content: "Notice the quality of light around you right now. How does it touch the surfaces and create shadows? What beauty do you discover in this simple observation?",
+    category: "Light Mindfulness",
+    isPremium: true
+  },
+  {
+    content: "What sounds in your environment have you been unconsciously filtering out? Listen deeply - what symphony of life surrounds you in this moment?",
+    category: "Sound Awareness",
+    isPremium: true
+  },
+  {
+    content: "Look at something in nature - a plant, sky, or even a single leaf. What details reveal themselves when you give it your complete attention?",
+    category: "Nature Detail",
+    isPremium: true
+  },
+  {
+    content: "Notice the miracle of your breath connecting you to all plant life on Earth. How does this awareness change your relationship with the natural world?",
+    category: "Breath Nature Connection",
+    isPremium: true
+  },
+  {
+    content: "What texture, color, or pattern in your immediate environment brings you unexpected joy when you really notice it?",
+    category: "Environmental Joy",
+    isPremium: true
+  },
+  {
+    content: "If you could slow down time and savor one moment from today like a fine wine, which moment would you choose and why?",
+    category: "Moment Savoring",
+    isPremium: true
+  },
+  {
+    content: "Notice how your body feels in this exact moment - the temperature, the support beneath you, the rhythm of your breath. What does presence feel like in your body right now?",
+    category: "Embodied Presence",
+    isPremium: true
+  },
+  {
+    content: "Look around and find something that represents resilience - perhaps a plant growing through concrete or weathered wood. What does this teach you about life's beauty?",
+    category: "Resilience Beauty",
+    isPremium: true
+  },
+  {
+    content: "What would it feel like to move through your day as if you're seeing the world through the eyes of an artist or poet, noticing beauty in the ordinary?",
+    category: "Artist Eyes",
+    isPremium: true
+  },
+  {
+    content: "In this moment, what are you most grateful for about being alive and aware? Let this gratitude fill your entire being and notice how it feels.",
+    category: "Gratitude Presence",
+    isPremium: true
   }
 ];

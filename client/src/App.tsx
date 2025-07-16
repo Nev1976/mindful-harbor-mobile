@@ -10,6 +10,7 @@ import Habits from "@/pages/habits";
 import Progress from "@/pages/progress";
 import Profile from "@/pages/profile";
 import Support from "@/pages/support";
+import Images from "@/pages/images";
 import BottomNav from "@/components/navigation/bottom-nav";
 
 function Router() {
@@ -22,6 +23,7 @@ function Router() {
         <Route path="/progress" component={Progress} />
         <Route path="/profile" component={Profile} />
         <Route path="/support" component={Support} />
+        <Route path="/images" component={Images} />
         <Route component={NotFound} />
       </Switch>
       <BottomNav />

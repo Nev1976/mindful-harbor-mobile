@@ -1,5 +1,6 @@
 export default function Images() {
   const images = [
+    { name: "Detailed Lighthouse", src: "/logo-options/detailed-lighthouse.svg", description: "Beautiful detailed lighthouse with red stripes, lantern room, and animated beacon" },
     { name: "Lighthouse Calm", src: "/logo-options/lighthouse-calm.svg", description: "Classic lighthouse with gentle light beams" },
     { name: "Harbor Sunset", src: "/logo-options/harbor-sunset.svg", description: "Warm sunset colors with harbor pier" },
     { name: "Mindful Anchor", src: "/logo-options/mindful-anchor.svg", description: "Glowing anchor with meditation elements" },

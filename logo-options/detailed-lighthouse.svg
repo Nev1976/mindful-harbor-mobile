@@ -1,0 +1,124 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B0E0E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5F9EA0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F4F4F;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lighthouseGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F5F5F5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8E8E8;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="lightBeam" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#FFFF99;stop-opacity:0.9" />
+      <stop offset="70%" style="stop-color:#FFE55C;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#FFE55C;stop-opacity:0" />
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="400" height="260" fill="url(#skyGradient)"/>
+  
+  <!-- Ocean -->
+  <rect x="0" y="260" width="400" height="140" fill="url(#oceanGradient)"/>
+  
+  <!-- Rocky foundation -->
+  <ellipse cx="200" cy="350" rx="45" ry="15" fill="#696969"/>
+  <ellipse cx="185" cy="345" rx="20" ry="8" fill="#778899"/>
+  <ellipse cx="215" cy="348" rx="25" ry="10" fill="#708090"/>
+  <ellipse cx="200" cy="355" rx="15" ry="5" fill="#556B2F"/>
+  
+  <!-- Lighthouse main tower -->
+  <rect x="180" y="120" width="40" height="230" fill="url(#lighthouseGradient)" filter="url(#shadow)"/>
+  
+  <!-- Lighthouse stripes -->
+  <rect x="180" y="140" width="40" height="15" fill="#DC143C"/>
+  <rect x="180" y="170" width="40" height="15" fill="#DC143C"/>
+  <rect x="180" y="200" width="40" height="15" fill="#DC143C"/>
+  <rect x="180" y="230" width="40" height="15" fill="#DC143C"/>
+  <rect x="180" y="260" width="40" height="15" fill="#DC143C"/>
+  <rect x="180" y="290" width="40" height="15" fill="#DC143C"/>
+  <rect x="180" y="320" width="40" height="15" fill="#DC143C"/>
+  
+  <!-- Lighthouse lantern room -->
+  <rect x="175" y="100" width="50" height="25" fill="#2F4F4F" filter="url(#shadow)"/>
+  
+  <!-- Lantern room windows -->
+  <rect x="180" y="105" width="8" height="15" fill="#FFE55C" opacity="0.8"/>
+  <rect x="192" y="105" width="8" height="15" fill="#FFE55C" opacity="0.8"/>
+  <rect x="204" y="105" width="8" height="15" fill="#FFE55C" opacity="0.8"/>
+  <rect x="216" y="105" width="8" height="15" fill="#FFE55C" opacity="0.8"/>
+  
+  <!-- Lighthouse dome -->
+  <path d="M 175 100 Q 200 85 225 100" fill="#8B0000" filter="url(#shadow)"/>
+  
+  <!-- Weather vane -->
+  <rect x="199" y="80" width="2" height="15" fill="#CD853F"/>
+  <polygon points="201,80 210,85 201,90" fill="#CD853F"/>
+  <circle cx="200" cy="82" r="3" fill="#CD853F"/>
+  
+  <!-- Light beams -->
+  <path d="M 200 112 L 80 60 L 90 50 L 200 102" fill="url(#lightBeam)"/>
+  <path d="M 200 112 L 320 60 L 310 50 L 200 102" fill="url(#lightBeam)"/>
+  <path d="M 200 112 L 50 150 L 60 160 L 200 122" fill="url(#lightBeam)"/>
+  <path d="M 200 112 L 350 150 L 340 160 L 200 122" fill="url(#lightBeam)"/>
+  
+  <!-- Lighthouse door -->
+  <rect x="190" y="320" width="20" height="30" fill="#8B4513" rx="10"/>
+  <circle cx="205" cy="335" r="2" fill="#FFD700"/>
+  
+  <!-- Windows on lighthouse -->
+  <rect x="190" y="180" width="8" height="12" fill="#87CEEB" opacity="0.7"/>
+  <rect x="202" y="180" width="8" height="12" fill="#87CEEB" opacity="0.7"/>
+  <rect x="190" y="220" width="8" height="12" fill="#87CEEB" opacity="0.7"/>
+  <rect x="202" y="220" width="8" height="12" fill="#87CEEB" opacity="0.7"/>
+  <rect x="190" y="260" width="8" height="12" fill="#87CEEB" opacity="0.7"/>
+  <rect x="202" y="260" width="8" height="12" fill="#87CEEB" opacity="0.7"/>
+  
+  <!-- Spiral staircase hint (visible through windows) -->
+  <path d="M 195 185 Q 200 188 205 185" stroke="#D3D3D3" stroke-width="1" fill="none"/>
+  <path d="M 195 225 Q 200 228 205 225" stroke="#D3D3D3" stroke-width="1" fill="none"/>
+  <path d="M 195 265 Q 200 268 205 265" stroke="#D3D3D3" stroke-width="1" fill="none"/>
+  
+  <!-- Seagulls in detail -->
+  <path d="M 120 100 Q 125 95 130 100 Q 125 105 120 100" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <path d="M 280 80 Q 285 75 290 80 Q 285 85 280 80" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <path d="M 340 120 Q 345 115 350 120 Q 345 125 340 120" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Small keeper's house -->
+  <rect x="120" y="300" width="30" height="50" fill="#CD853F"/>
+  <polygon points="120,300 135,285 150,300" fill="#8B0000"/>
+  <rect x="125" y="320" width="8" height="12" fill="#8B4513"/>
+  <rect x="137" y="310" width="6" height="8" fill="#87CEEB" opacity="0.7"/>
+  
+  <!-- Detailed waves -->
+  <path d="M 0 280 Q 50 275 100 280 T 200 280 T 300 280 T 400 280" stroke="#B0E0E6" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M 0 290 Q 60 285 120 290 T 240 290 T 360 290 T 400 290" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 0 300 Q 40 295 80 300 T 160 300 T 240 300 T 320 300 T 400 300" stroke="#B0E0E6" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- Reflection in water -->
+  <rect x="180" y="360" width="40" height="40" fill="url(#lighthouseGradient)" opacity="0.3"/>
+  <rect x="175" y="355" width="50" height="8" fill="#2F4F4F" opacity="0.3"/>
+  
+  <!-- Clouds with detail -->
+  <ellipse cx="80" cy="60" rx="25" ry="10" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="95" cy="55" rx="20" ry="8" fill="#F5F5F5" opacity="0.8"/>
+  <ellipse cx="110" cy="60" rx="15" ry="6" fill="#FFFFFF" opacity="0.8"/>
+  
+  <ellipse cx="320" cy="80" rx="30" ry="12" fill="#FFFFFF" opacity="0.7"/>
+  <ellipse cx="340" cy="75" rx="25" ry="10" fill="#F5F5F5" opacity="0.7"/>
+  
+  <!-- Lighthouse beacon glow -->
+  <circle cx="200" cy="112" r="15" fill="#FFE55C" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

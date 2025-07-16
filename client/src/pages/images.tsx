@@ -1,10 +1,10 @@
 export default function Images() {
   const images = [
-    { name: "Lighthouse Calm", src: "/lighthouse-calm.svg", description: "Classic lighthouse with gentle light beams" },
-    { name: "Harbor Sunset", src: "/harbor-sunset.svg", description: "Warm sunset colors with harbor pier" },
-    { name: "Mindful Anchor", src: "/mindful-anchor.svg", description: "Glowing anchor with meditation elements" },
-    { name: "Peaceful Dock", src: "/peaceful-dock.svg", description: "Person meditating on wooden dock" },
-    { name: "Zen Harbor", src: "/zen-harbor.svg", description: "Minimalist design with zen stones" }
+    { name: "Lighthouse Calm", src: "/logo-options/lighthouse-calm.svg", description: "Classic lighthouse with gentle light beams" },
+    { name: "Harbor Sunset", src: "/logo-options/harbor-sunset.svg", description: "Warm sunset colors with harbor pier" },
+    { name: "Mindful Anchor", src: "/logo-options/mindful-anchor.svg", description: "Glowing anchor with meditation elements" },
+    { name: "Peaceful Dock", src: "/logo-options/peaceful-dock.svg", description: "Person meditating on wooden dock" },
+    { name: "Zen Harbor", src: "/logo-options/zen-harbor.svg", description: "Minimalist design with zen stones" }
   ];
 
   return (

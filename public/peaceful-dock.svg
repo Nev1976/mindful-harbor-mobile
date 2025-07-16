@@ -1,0 +1,65 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="morningWater" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="morningSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0F8FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B0E0E6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="400" height="200" fill="url(#morningSky)"/>
+  
+  <!-- Water -->
+  <rect x="0" y="200" width="400" height="200" fill="url(#morningWater)"/>
+  
+  <!-- Dock perspective -->
+  <polygon points="150,350 250,350 280,250 120,250" fill="#DEB887"/>
+  
+  <!-- Dock planks -->
+  <rect x="130" y="255" width="140" height="8" fill="#CD853F"/>
+  <rect x="135" y="270" width="130" height="8" fill="#CD853F"/>
+  <rect x="140" y="285" width="120" height="8" fill="#CD853F"/>
+  <rect x="145" y="300" width="110" height="8" fill="#CD853F"/>
+  <rect x="150" y="315" width="100" height="8" fill="#CD853F"/>
+  <rect x="155" y="330" width="90" height="8" fill="#CD853F"/>
+  
+  <!-- Dock posts -->
+  <rect x="145" y="250" width="6" height="30" fill="#8B4513"/>
+  <rect x="165" y="250" width="6" height="30" fill="#8B4513"/>
+  <rect x="230" y="250" width="6" height="30" fill="#8B4513"/>
+  <rect x="250" y="250" width="6" height="30" fill="#8B4513"/>
+  
+  <!-- Person sitting in meditation -->
+  <ellipse cx="200" cy="275" rx="8" ry="12" fill="#F4A460"/>
+  <circle cx="200" cy="265" r="6" fill="#F4A460"/>
+  <rect x="195" y="270" width="10" height="15" fill="#4682B4"/>
+  
+  <!-- Mountains in distance -->
+  <polygon points="0,150 80,100 160,150 0,200" fill="#9370DB" opacity="0.6"/>
+  <polygon points="120,140 200,90 280,140 120,200" fill="#8A2BE2" opacity="0.5"/>
+  <polygon points="240,160 320,110 400,160 240,200" fill="#9932CC" opacity="0.4"/>
+  
+  <!-- Gentle water ripples -->
+  <ellipse cx="100" cy="320" rx="30" ry="5" fill="none" stroke="#B0E0E6" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="320" cy="340" rx="25" ry="4" fill="none" stroke="#B0E0E6" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="200" cy="370" rx="40" ry="6" fill="none" stroke="#B0E0E6" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Reflection of dock -->
+  <polygon points="150,350 250,350 280,380 120,380" fill="#DEB887" opacity="0.3"/>
+  
+  <!-- Lotus flower floating -->
+  <circle cx="300" cy="330" r="8" fill="#FFB6C1"/>
+  <ellipse cx="295" cy="325" rx="4" ry="2" fill="#FF69B4"/>
+  <ellipse cx="305" cy="325" rx="4" ry="2" fill="#FF69B4"/>
+  <ellipse cx="300" cy="320" rx="4" ry="2" fill="#FF69B4"/>
+  <ellipse cx="300" cy="330" rx="4" ry="2" fill="#FF69B4"/>
+  
+  <!-- Dragonfly -->
+  <ellipse cx="250" cy="180" rx="8" ry="2" fill="#4169E1" opacity="0.7"/>
+  <ellipse cx="258" cy="180" rx="6" ry="1.5" fill="#4169E1" opacity="0.7"/>
+  <rect x="254" y="179" width="8" height="1" fill="#2F4F4F"/>
+</svg>

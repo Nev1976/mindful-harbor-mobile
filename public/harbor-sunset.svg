@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sunsetSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF7F7F;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#FFB347;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#FFF8DC;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#FFE55C;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FF8C42;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#FF8C42;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="400" height="280" fill="url(#sunsetSky)"/>
+  
+  <!-- Sun -->
+  <circle cx="120" cy="100" r="40" fill="url(#sunGlow)"/>
+  <circle cx="120" cy="100" r="25" fill="#FFE55C"/>
+  
+  <!-- Water -->
+  <rect x="0" y="280" width="400" height="120" fill="#4682B4"/>
+  
+  <!-- Harbor pier -->
+  <rect x="250" y="250" width="8" height="80" fill="#8B4513"/>
+  <rect x="280" y="260" width="8" height="70" fill="#8B4513"/>
+  <rect x="310" y="270" width="8" height="60" fill="#8B4513"/>
+  
+  <!-- Small boat -->
+  <ellipse cx="180" cy="300" rx="25" ry="8" fill="#CD853F"/>
+  <rect x="175" y="290" width="3" height="15" fill="#8B4513"/>
+  <polygon points="178,290 195,295 178,300" fill="#F5F5F5"/>
+  
+  <!-- Lighthouse silhouette -->
+  <rect x="350" y="200" width="20" height="80" fill="#2F4F4F"/>
+  <rect x="345" y="190" width="30" height="15" fill="#B22222"/>
+  <circle cx="360" cy="190" r="8" fill="#FFE55C" opacity="0.8"/>
+  
+  <!-- Sun reflection on water -->
+  <ellipse cx="120" cy="320" rx="15" ry="40" fill="#FFE55C" opacity="0.4"/>
+  
+  <!-- Peaceful ripples -->
+  <ellipse cx="200" cy="310" rx="50" ry="5" fill="none" stroke="#87CEEB" stroke-width="1" opacity="0.6"/>
+  <ellipse cx="200" cy="320" rx="70" ry="7" fill="none" stroke="#87CEEB" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="300" cy="60" rx="30" ry="10" fill="#FFF8DC" opacity="0.7"/>
+  <ellipse cx="320" cy="55" rx="20" ry="8" fill="#FFF8DC" opacity="0.7"/>
+</svg>

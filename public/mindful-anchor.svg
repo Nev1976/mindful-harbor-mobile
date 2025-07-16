@@ -1,0 +1,58 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E3A5F;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Ocean background -->
+  <rect width="400" height="400" fill="url(#oceanGradient)"/>
+  
+  <!-- Anchor main body -->
+  <rect x="195" y="150" width="10" height="120" fill="#5CB3CC" filter="url(#glow)"/>
+  
+  <!-- Anchor crossbar -->
+  <rect x="170" y="155" width="60" height="8" fill="#5CB3CC" filter="url(#glow)"/>
+  
+  <!-- Anchor flukes -->
+  <path d="M 195 270 L 180 290 L 175 285 L 195 265" fill="#5CB3CC" filter="url(#glow)"/>
+  <path d="M 205 270 L 220 290 L 225 285 L 205 265" fill="#5CB3CC" filter="url(#glow)"/>
+  
+  <!-- Anchor ring -->
+  <circle cx="200" cy="145" r="12" fill="none" stroke="#5CB3CC" stroke-width="6" filter="url(#glow)"/>
+  
+  <!-- Rope/chain -->
+  <path d="M 200 133 Q 190 120 180 110 Q 170 100 160 95" stroke="#E6E6FA" stroke-width="4" fill="none" opacity="0.8"/>
+  <circle cx="162" cy="98" r="3" fill="#E6E6FA" opacity="0.8"/>
+  <circle cx="167" cy="105" r="3" fill="#E6E6FA" opacity="0.8"/>
+  <circle cx="175" cy="115" r="3" fill="#E6E6FA" opacity="0.8"/>
+  
+  <!-- Water ripples around anchor -->
+  <ellipse cx="200" cy="280" rx="40" ry="8" fill="none" stroke="#87CEEB" stroke-width="2" opacity="0.5"/>
+  <ellipse cx="200" cy="285" rx="55" ry="10" fill="none" stroke="#87CEEB" stroke-width="2" opacity="0.3"/>
+  <ellipse cx="200" cy="290" rx="70" ry="12" fill="none" stroke="#87CEEB" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Floating meditation elements -->
+  <circle cx="120" cy="180" r="8" fill="#FFE066" opacity="0.6">
+    <animate attributeName="cy" values="180;175;180" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="220" r="6" fill="#FF9999" opacity="0.6">
+    <animate attributeName="cy" values="220;215;220" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="80" cy="250" r="5" fill="#98FB98" opacity="0.6">
+    <animate attributeName="cy" values="250;245;250" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Light rays from above -->
+  <path d="M 200 0 L 205 50 L 195 50 Z" fill="#E6E6FA" opacity="0.3"/>
+  <path d="M 180 10 L 190 55 L 185 60 Z" fill="#E6E6FA" opacity="0.2"/>
+  <path d="M 220 15 L 215 60 L 210 55 Z" fill="#E6E6FA" opacity="0.2"/>
+</svg>

@@ -109,6 +109,15 @@ The application uses optimistic updates for better user experience, with backgro
 
 ## Recent Changes
 
+### July 18, 2025 - Deployment Configuration Fixes
+- ✓ Resolved React Native dependency conflicts for web deployment
+- ✓ Removed mobile-specific dependencies (@expo/cli, expo, eas-cli) from web build
+- ✓ Updated @types/react to version 19.1.8 to resolve peer dependency conflicts
+- ✓ Updated @types/react-dom to version 19.1.0 for compatibility
+- ✓ Fixed tsconfig.json by removing expo/tsconfig.base extends configuration
+- ✓ Verified successful production build process (npm run build)
+- ✓ Application is now ready for web deployment without React Native conflicts
+
 ### July 15, 2025 - App Store Submission Preparation
 - ✓ Created React Native mobile app in `/mobile` directory  
 - ✓ Implemented all main screens: Home, Reflect, Habits, Progress

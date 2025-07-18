@@ -3,6 +3,7 @@ workflows:
     name: iOS Workflow
     max_build_duration: 120
     environment:
+
       flutter: stable
       xcode: latest
       cocoapods: default
@@ -21,3 +22,32 @@ workflows:
       email:
         recipients:
           - user@example.com
+
+      node: 18
+      groups:
+        - mindfulness
+    scripts:
+      - name: Install dependencies
+        script: |
+          npm install --legacy-peer-deps
+
+      - name: Install Expo CLI
+        script: |
+          npm install -g expo-cli
+
+      - name: Install EAS CLI
+        script: |
+          npm install -g eas-cli
+
+      - name: Build iOS app
+        script: |
+          expo build:ios --non-interactive
+
+    artifacts:
+      - '*.ipa'
+
+    publishing:
+      email:
+        recipients:
+          - mindfulharborapp@gmail.com
+

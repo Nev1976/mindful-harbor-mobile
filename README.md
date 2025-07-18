@@ -1,4 +1,4 @@
-# Mindful Harbor 🧘‍♀️
+#Mindful Harbor 🧘‍♀️
 
 A modern mindfulness and wellness web application designed to support mental well-being through daily reflection prompts, habit tracking, and micro-moment mindfulness activities.
 
@@ -138,6 +138,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Designed with accessibility and user experience in mind
 - Inspired by evidence-based mindfulness practices
 
----
+
 
 **Mindful Harbor** - Your digital sanctuary for mindfulness and well-being 🌊
+
+# Mindful Harbor Mobile App
+
+A React Native mobile application for mindfulness and wellness.
+
+## Features
+- Daily reflection prompts
+- Habit tracking
+- Micro-moment mindfulness activities
+- Progress visualization
+
+## Build Instructions
+This app is configured to build with CodeMagic CI/CD for iOS App Store deployment.
+

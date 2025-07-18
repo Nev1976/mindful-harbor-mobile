@@ -1,0 +1,2 @@
+Upstream branch 'origin/main' already exists. To push the branch, please confirm you would like to set upstream branch to it.
+getting this error when pushing the code using git ui, if use shell command I get authentication errrors, I have already connected you to github

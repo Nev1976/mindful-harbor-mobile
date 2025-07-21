@@ -1,40 +1,56 @@
 {
   "name": "mindful-moments-mobile",
   "version": "1.0.0",
-  "main": "expo-router/entry",
+  "main": "index.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "build:android": "cd android && ./gradlew assembleRelease",
+    "build:ios": "cd ios && xcodebuild -workspace MindfulMomentsMobile.xcworkspace -scheme MindfulMomentsMobile -configuration Release -destination generic/platform=iOS -archivePath MindfulMomentsMobile.xcarchive archive"
   },
   "dependencies": {
-    "expo": "~52.0.0",
-    "expo-router": "~4.0.0",
-    "expo-constants": "~17.0.0",
-    "expo-status-bar": "~2.0.0",
-    "expo-linear-gradient": "~14.0.0",
-    "expo-haptics": "~14.0.0",
-    "expo-notifications": "~0.29.0",
-    "@expo/vector-icons": "^15.0.0",
     "react": "18.2.0",
     "react-native": "0.76.9",
     "react-native-safe-area-context": "4.12.0",
-    "react-native-screens": "~4.2.0",
-    "react-native-gesture-handler": "~2.20.0",
-    "react-native-reanimated": "~3.16.1",
+    "react-native-screens": "4.2.0",
+    "react-native-gesture-handler": "2.20.0",
+    "react-native-reanimated": "3.16.1",
     "react-native-svg": "15.8.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-haptic-feedback": "^2.3.0",
+    "react-native-push-notification": "^8.1.1",
     "@react-navigation/native": "^7.0.0",
     "@react-navigation/bottom-tabs": "^7.0.0",
     "@tanstack/react-query": "^5.60.5",
     "@react-native-async-storage/async-storage": "^2.1.0",
     "date-fns": "^3.6.0",
-    "zod": "^3.24.2"
+    "zod": "^3.24.2",
+    "react-native-vector-icons": "^10.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.25.0",
-    "@types/react": "~18.3.0",
-    "typescript": "~5.3.0"
+    "@babel/preset-env": "^7.25.0",
+    "@babel/preset-react": "^7.25.0",
+    "@babel/preset-typescript": "^7.25.0",
+    "@babel/runtime": "^7.25.0",
+    "@react-native/babel-preset": "^0.76.9",
+    "@react-native/eslint-config": "^0.76.9",
+    "@react-native/metro-config": "^0.76.9",
+    "@react-native/typescript-config": "^0.76.9",
+    "@types/react": "^18.2.0",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "prettier": "2.8.8",
+    "react-test-renderer": "18.2.0",
+    "typescript": "5.3.0"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "private": true
 }

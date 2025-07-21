@@ -50,7 +50,7 @@
     "typescript": "5.3.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=16.0.0"
   },
   "private": true
 }
